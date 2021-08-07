@@ -75,6 +75,10 @@
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-D6YCH899KZ"
     ></script>
+    <script
+      async
+      src="https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2.0.1/dist/loading-attribute-polyfill.umd.js"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
@@ -82,13 +86,6 @@
       }
       gtag("js", new Date());
       gtag("config", "G-D6YCH899KZ", { anonymize_ip: true });
-      setTimeout(function () {
-        var script = document.createElement("script");
-        script.async = true;
-        script.src =
-          "https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2.0.1/dist/loading-attribute-polyfill.umd.js";
-        document.head.appendChild(script);
-      }, 2000);
     </script>
   </head>
   <body>
