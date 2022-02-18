@@ -7,7 +7,6 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="preconnect"
       href="https://www.googletagmanager.com"
@@ -20,14 +19,6 @@
     />
     <link rel="preconnect" href="https://app.hearthis.at" crossorigin />
     <link rel="preconnect" href="https://cdn.hearthis.at" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap&text=.dehkopsu"
-      rel="stylesheet"
-    />
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css"
       rel="stylesheet"
@@ -43,17 +34,41 @@
     <meta name="msapplication-TileColor" content="#603cba" />
     <meta name="theme-color" content="#dadada" />
     <meta name="twitter:card" content="player" />
-    <meta name="twitter:title" content="37 Celsius (deephouse.uk)">
+    <meta name="twitter:title" content="37 Celsius (deephouse.uk)" />
     <meta name="twitter:site" content="@deephouse_uk" />
     <meta name="twitter:creator" content="@deephouse_uk" />
-    <meta name="twitter:image" content="https://images.hearthis.at/1/6/3/_/uploads/10076164/image_track/6448719/37-celsius-deephouseuk----w1200_h628_q100_----1639413696905.jpg">
-    <meta name="twitter:image:width" content="1200">
-    <meta name="twitter:image:height" content="628">
-    <meta name="twitter:player" content="https://hearthis.at/embed/6448719/transparent_black/?hcolor=55acee&color=&style=2&block_size=2&block_space=2&background=1&waveform=0&cover=0&autoplay=0&css=">
-    <meta name="twitter:player:stream" content="https://hearthis.at/deephouse-uk/37-celsius/stream.mp3?s=z4q&t=1640379241">
-    <meta name="twitter:player:height" content="145">
-    <meta name="twitter:player:width" content="435">
+    <meta
+      name="twitter:image"
+      content="https://images.hearthis.at/1/6/3/_/uploads/10076164/image_track/6448719/37-celsius-deephouseuk----w1200_h628_q100_----1639413696905.jpg"
+    />
+    <meta name="twitter:image:width" content="1200" />
+    <meta name="twitter:image:height" content="628" />
+    <meta
+      name="twitter:player"
+      content="https://hearthis.at/embed/6448719/transparent_black/?hcolor=55acee&color=&style=2&block_size=2&block_space=2&background=1&waveform=0&cover=0&autoplay=0&css="
+    />
+    <meta
+      name="twitter:player:stream"
+      content="https://hearthis.at/deephouse-uk/37-celsius/stream.mp3?s=z4q&t=1640379241"
+    />
+    <meta name="twitter:player:height" content="145" />
+    <meta name="twitter:player:width" content="435" />
     <style>
+      @font-face {
+        font-family: "Lily Script One";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url("fonts/lily-script-one-v13-subset.woff2") format("woff2"); /* .dehkopsu */
+      }
+      @font-face {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-stretch: normal;
+        font-display: swap;
+        src: url("fonts/open-sans-v27.woff2") format("woff2");
+      }
       body {
         font-family: "Open Sans", sans-serif;
         background-image: url("mix.jpg");
@@ -85,10 +100,7 @@
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-D6YCH899KZ"
     ></script>
-    <script
-      async
-      src="https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2.0.1/dist/loading-attribute-polyfill.umd.js"
-    ></script>
+    <script async src="js/loading-attribute-polyfill.js"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag() {
