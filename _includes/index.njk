@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Deep House Mixes - Lovell Fuller - London, UK</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="preconnect"
+      href="https://www.googletagmanager.com"
+      crossorigin
+    />
+    <link
+      rel="preconnect"
+      href="https://www.google-analytics.com"
+      crossorigin
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha512-GQGU0fMMi238uA+a/bdWJfpUGKUkBdgfFdgBm72SUQ6BeyWjoY/ton0tEjH+OSH9iP4Dfh+7HM0I9f5eR0L/4w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="/images/safari-pinned-tab.svg"
+      color="#dadada"
+    />
+    <meta name="msapplication-TileColor" content="#603cba" />
+    <meta name="theme-color" content="#dadada" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Deep House Mixes - deephouse.uk" />
+    <meta name="twitter:site" content="@deephouse_uk" />
+    <meta name="twitter:creator" content="@deephouse_uk" />
+    <style>
+      @font-face {
+        font-family: "Lily Script One";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url("/fonts/lily-script-one-v13-subset.woff2") format("woff2"); /* .dehkopsu */
+      }
+      @font-face {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-stretch: normal;
+        font-display: swap;
+        src: url("/fonts/open-sans-v27.woff2") format("woff2");
+      }
+      body {
+        font-family: "Open Sans", sans-serif;
+        background-image: url("/images/decks.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      h2 {
+        font-family: "Lily Script One", sans-serif;
+        color: indigo;
+      }
+    </style>
+    <meta
+      name="og:title"
+      content="Deep House Mixes - Lovell Fuller - London, UK"
+    />
+    <meta name="og:url" content="https://deephouse.uk" />
+    <meta name="og:image" content="https://deephouse.uk/images/decks.jpg" />
+    <meta name="description" content="A selection of {{ pagination.items.length }} deep house DJ mixes, all recorded live.">
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-D6YCH899KZ"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-D6YCH899KZ", { anonymize_ip: true });
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col pt-3 pb-3">
+          <header class="card shadow" style="background-color: navajowhite">
+            <div class="card-body text-center">
+              <h2 class="display-5 fw-bold">deephouse.uk</h2>
+              <p>Deep House Mixes - Lovell Fuller - London, UK</p>
+            </div>
+          </header>
+        </div>
+      </div>
+
+      <div class="col col-sm-12 pb-3">
+        <div class="card shadow bg-thistle">
+          <div class="card-body pb-3">
+            <div class="row row-cols-2 row-cols-sm-3 row-cols-xl-6 g-4">
+              {% for mix in pagination.items %}
+              <div class="col">
+                <div
+                  class="card h-100"
+                  style="background-color: #{{ mix.colour }}33"
+                >
+                  <img
+                    src="/images/mix/{{ mix.slug }}.jpg"
+                    class="card-img-top"
+                    alt="{{ mix.title }} - Cover"
+                  />
+                  <span
+                    class="position-absolute top-0 end-0 badge rounded-pill m-2"
+                    style="background-color: #{{ mix.colour }}77"
+                    title="Played {{ mix.popularity }} times"
+                  >
+                    &#9654; {{ mix.popularity }}
+                  </span>
+                  <div class="card-body">
+                    <h5 class="card-title">{{ mix.title }}</h5>
+                    <h6 class="card-subtitle">{{ mix.month }}</h6>
+                    <a
+                      href="/mix/{{ mix.slug }}"
+                      class="stretched-link"
+                      title="{{ mix.title }}"
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

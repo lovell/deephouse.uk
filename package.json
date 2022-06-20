@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "npx @11ty/eleventy --output=docs",
+    "serve": "npx @11ty/eleventy --output=docs --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1",
+    "@11ty/eleventy-fetch": "^3.0.0",
+    "slugify": "^1.6.5"
+  }
+}
