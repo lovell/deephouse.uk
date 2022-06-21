@@ -79,6 +79,7 @@ module.exports = async function () {
 
       return {
         ...mix,
+        date: new Date(`${mix.date}T12:00:00.000Z`),
         slug,
         colour,
         hearThisId,

@@ -47,6 +47,12 @@
       href="/images/safari-pinned-tab.svg"
       color="#dadada"
     />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Deep House Mixes - Lovell Fuller - London, UK"
+      href="/feed.xml"
+    />
     <meta name="msapplication-TileColor" content="#603cba" />
     <meta name="theme-color" content="#dadada" />
     <meta name="twitter:card" content="summary" />
@@ -88,7 +94,12 @@
     />
     <meta name="og:url" content="https://deephouse.uk" />
     <meta name="og:image" content="https://deephouse.uk/images/decks.jpg" />
-    <meta name="description" content="A selection of {{ pagination.items.length }} deep house DJ mixes, all recorded live.">
+    <meta
+      name="description"
+      content="A selection of {{
+        pagination.items.length
+      }} deep house DJ mixes, all recorded live."
+    />
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-D6YCH899KZ"
