@@ -136,13 +136,10 @@
                   >Download</a
                 >
               </p>
-              <p class="small">
-                <ol>
-                  {% for track in mix.tracklist %}
-                    <li>{{ track }}</li>
-                  {% endfor %}
-                </ol>
-              </p>
+              <ol>
+                {% for track in mix.tracklist %}<li>{{ track }}</li>
+                {% endfor %}
+              </ol>
             </article>
           </div>
         </div>
