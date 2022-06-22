@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://deephouse.uk</loc>
+        <lastmod>{{ pagination.items[0].date | toISOString }}</lastmod>
+    </url>
+    {% for mix in pagination.items %}<url>
+        <loc>https://deephouse.uk/mix/{{ mix.slug }}</loc>
+        <lastmod>{{ mix.date | toISOString }}</lastmod>
+    </url>
+    {% endfor %}
+</urlset>
