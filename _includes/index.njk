@@ -146,7 +146,7 @@
                     src="/images/mix/{{ mix.slug }}.jpg"
                     class="card-img-top"
                     alt="{{ mix.title }} - Cover"
-                    loading="lazy"
+                    {% if loop.index > 12 %}loading="lazy"{% endif %}
                   />
                   <span
                     class="position-absolute top-0 end-0 badge rounded-pill m-2"
