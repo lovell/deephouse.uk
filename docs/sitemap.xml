@@ -2,7 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://deephouse.uk</loc>
-        <lastmod>2022-05-01T12:00:00.000Z</lastmod>
+        <lastmod>2022-06-01T12:00:00.000Z</lastmod>
+    </url>
+    <url>
+        <loc>https://deephouse.uk/mix/just-a-taste</loc>
+        <lastmod>2022-06-01T12:00:00.000Z</lastmod>
     </url>
     <url>
         <loc>https://deephouse.uk/mix/modern-romance</loc>

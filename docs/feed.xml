@@ -3,8 +3,14 @@
     <channel>
         <title>Deep House Mixes - Lovell Fuller - London, UK</title>
         <link>https://deephouse.uk</link>
-        <description>A selection of 24 deep house DJ mixes, all recorded live.</description>
+        <description>A selection of 25 deep house DJ mixes, all recorded live.</description>
         <atom:link href="https://deephouse.uk/feed.xml" rel="self" type="application/rss+xml" />
+        <item>
+                <title>Just A Taste - June 2022</title>
+                <link>https://deephouse.uk/mix/just-a-taste</link>
+                <pubDate>Wed, 01 Jun 2022 13:00:00 +0000</pubDate>
+                <guid>https://deephouse.uk/mix/just-a-taste</guid>
+        </item>
         <item>
                 <title>Modern Romance - May 2022</title>
                 <link>https://deephouse.uk/mix/modern-romance</link>
