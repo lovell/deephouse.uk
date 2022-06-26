@@ -1,5 +1,6 @@
 const fs = require("fs");
 const slugify = require("slugify");
+const nodeFetch = require("node-fetch");
 const eleventyFetch = require("@11ty/eleventy-fetch");
 
 const mixes = require("../mixes.json");
@@ -32,6 +33,18 @@ const fetchHearThis = async (mixId) => {
   return { id, playback_count, download_count, thumb };
 };
 
+const fetchContentLength = async (mixId) => {
+  const url = `https://hearthis.at/deephouse-uk/${mixId}/listen`;
+  const contentLengthCache = new eleventyFetch.AssetCache(url);
+  if (contentLengthCache.isCacheValid("1d")) {
+    return contentLengthCache.getCachedValue();
+  }
+  const { headers } = await nodeFetch(url, { method: "head" });
+  const contentLength = headers.get("content-length");
+  await contentLengthCache.save(contentLength);
+  return contentLength;
+};
+
 const tracklistFromDescription = (description) =>
   description.split("\n").filter((track) => track.includes(" - "));
 
@@ -59,6 +72,7 @@ module.exports = async function () {
       const slug = slugify(mix.title, { lower: true, strict: true });
       const mixcloud = await fetchMixcloud(mix.mixcloudSlug || slug);
       const hearThis = await fetchHearThis(mix.hearThisSlug || slug);
+      const contentLength = await fetchContentLength(mix.hearThisSlug || slug);
 
       await fetchImage(hearThis.thumb, `./docs/images/mix/${slug}.jpg`);
 
@@ -83,6 +97,7 @@ module.exports = async function () {
         date: new Date(`${mix.date}T12:00:00.000Z`),
         slug,
         colour,
+        contentLength,
         durationSeconds,
         hearThisId,
         hearThisSlug,
