@@ -4,13 +4,23 @@
         <title>Deep House Mixes - Lovell Fuller - London, UK</title>
         <link>https://deephouse.uk</link>
         <description>A selection of {{ pagination.items.length }} deep house DJ mixes, all recorded live.</description>
-        <atom:link href="https://deephouse.uk/feed.xml" rel="self" type="application/rss+xml" />
-        {% for mix in pagination.items %}<item>
+        <atom:link href="https://deephouse.uk/feed.xml" rel="self" type="application/rss+xml"/>
+        <itunes:image href="https://deephouse.uk/images/decks.jpg"/>
+        <itunes:owner>
+            <itunes:email>podcast@deephouse.uk</itunes:email>
+        </itunes:owner>
+        <itunes:author>Lovell Fuller</itunes:author>
+        <itunes:category text="Music"/>
+        {% for mix in pagination.items %}
+            <item>
                 <title>{{ mix.title }} - {{ mix.month}}</title>
                 <link>https://deephouse.uk/mix/{{ mix.slug }}</link>
                 <pubDate>{{ mix.date | dateToRfc822 }}</pubDate>
                 <guid>https://deephouse.uk/mix/{{ mix.slug }}</guid>
-        </item>
+                <enclosure url="https://hearthis.at/deephouse-uk/{{ mix.slug }}/listen" type="audio/mpeg"/>
+                <description>A continous deep house DJ mix, recorded live in {{ mix.month }}.</description>
+                <itunes:duration>{{ mix.durationSeconds }}</itunes:duration>
+            </item>
         {% endfor %}
     </channel>
 </rss>

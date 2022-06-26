@@ -4,157 +4,263 @@
         <title>Deep House Mixes - Lovell Fuller - London, UK</title>
         <link>https://deephouse.uk</link>
         <description>A selection of 25 deep house DJ mixes, all recorded live.</description>
-        <atom:link href="https://deephouse.uk/feed.xml" rel="self" type="application/rss+xml" />
-        <item>
+        <atom:link href="https://deephouse.uk/feed.xml" rel="self" type="application/rss+xml"/>
+        <itunes:image href="https://deephouse.uk/images/decks.jpg"/>
+        <itunes:owner>
+            <itunes:email>podcast@deephouse.uk</itunes:email>
+        </itunes:owner>
+        <itunes:author>Lovell Fuller</itunes:author>
+        <itunes:category text="Music"/>
+        
+            <item>
                 <title>Just A Taste - June 2022</title>
                 <link>https://deephouse.uk/mix/just-a-taste</link>
                 <pubDate>Wed, 01 Jun 2022 13:00:00 +0000</pubDate>
                 <guid>https://deephouse.uk/mix/just-a-taste</guid>
-        </item>
-        <item>
+                <enclosure url="https://hearthis.at/deephouse-uk/just-a-taste/listen" type="audio/mpeg"/>
+                <description>A continous deep house DJ mix, recorded live in June 2022.</description>
+                <itunes:duration>3505</itunes:duration>
+            </item>
+        
+            <item>
                 <title>Modern Romance - May 2022</title>
                 <link>https://deephouse.uk/mix/modern-romance</link>
                 <pubDate>Sun, 01 May 2022 13:00:00 +0000</pubDate>
                 <guid>https://deephouse.uk/mix/modern-romance</guid>
-        </item>
-        <item>
+                <enclosure url="https://hearthis.at/deephouse-uk/modern-romance/listen" type="audio/mpeg"/>
+                <description>A continous deep house DJ mix, recorded live in May 2022.</description>
+                <itunes:duration>3684</itunes:duration>
+            </item>
+        
+            <item>
                 <title>Deep Love - April 2022</title>
                 <link>https://deephouse.uk/mix/deep-love</link>
                 <pubDate>Fri, 01 Apr 2022 13:00:00 +0000</pubDate>
                 <guid>https://deephouse.uk/mix/deep-love</guid>
-        </item>
-        <item>
+                <enclosure url="https://hearthis.at/deephouse-uk/deep-love/listen" type="audio/mpeg"/>
+                <description>A continous deep house DJ mix, recorded live in April 2022.</description>
+                <itunes:duration>3690</itunes:duration>
+            </item>
+        
+            <item>
                 <title>Les Oxalis - March 2022</title>
                 <link>https://deephouse.uk/mix/les-oxalis</link>
                 <pubDate>Tue, 01 Mar 2022 12:00:00 +0000</pubDate>
                 <guid>https://deephouse.uk/mix/les-oxalis</guid>
-        </item>
-        <item>
+                <enclosure url="https://hearthis.at/deephouse-uk/les-oxalis/listen" type="audio/mpeg"/>
+                <description>A continous deep house DJ mix, recorded live in March 2022.</description>
+                <itunes:duration>3340</itunes:duration>
+            </item>
+        
+            <item>
                 <title>Been A Long Time - February 2022</title>
                 <link>https://deephouse.uk/mix/been-a-long-time</link>
                 <pubDate>Tue, 01 Feb 2022 12:00:00 +0000</pubDate>
                 <guid>https://deephouse.uk/mix/been-a-long-time</guid>
-        </item>
-        <item>
+                <enclosure url="https://hearthis.at/deephouse-uk/been-a-long-time/listen" type="audio/mpeg"/>
+                <description>A continous deep house DJ mix, recorded live in February 2022.</description>
+                <itunes:duration>3910</itunes:duration>
+            </item>
+        
+            <item>
                 <title>37 Celsius - December 2021</title>
                 <link>https://deephouse.uk/mix/37-celsius</link>
                 <pubDate>Wed, 01 Dec 2021 12:00:00 +0000</pubDate>
                 <guid>https://deephouse.uk/mix/37-celsius</guid>
-        </item>
-        <item>
+                <enclosure url="https://hearthis.at/deephouse-uk/37-celsius/listen" type="audio/mpeg"/>
+                <description>A continous deep house DJ mix, recorded live in December 2021.</description>
+                <itunes:duration>4088</itunes:duration>
+            </item>
+        
+            <item>
                 <title>Where Do I Begin? - November 2021</title>
                 <link>https://deephouse.uk/mix/where-do-i-begin</link>
                 <pubDate>Mon, 01 Nov 2021 12:00:00 +0000</pubDate>
                 <guid>https://deephouse.uk/mix/where-do-i-begin</guid>
-        </item>
-        <item>
+                <enclosure url="https://hearthis.at/deephouse-uk/where-do-i-begin/listen" type="audio/mpeg"/>
+                <description>A continous deep house DJ mix, recorded live in November 2021.</description>
+                <itunes:duration>3500</itunes:duration>
+            </item>
+        
+            <item>
                 <title>Talk To Me - September 2021</title>
                 <link>https://deephouse.uk/mix/talk-to-me</link>
                 <pubDate>Wed, 01 Sep 2021 13:00:00 +0000</pubDate>
                 <guid>https://deephouse.uk/mix/talk-to-me</guid>
-        </item>
-        <item>
+                <enclosure url="https://hearthis.at/deephouse-uk/talk-to-me/listen" type="audio/mpeg"/>
+                <description>A continous deep house DJ mix, recorded live in September 2021.</description>
+                <itunes:duration>4465</itunes:duration>
+            </item>
+        
+            <item>
                 <title>Your Soul On Mine - August 2021</title>
                 <link>https://deephouse.uk/mix/your-soul-on-mine</link>
                 <pubDate>Sun, 01 Aug 2021 13:00:00 +0000</pubDate>
                 <guid>https://deephouse.uk/mix/your-soul-on-mine</guid>
-        </item>
-        <item>
+                <enclosure url="https://hearthis.at/deephouse-uk/your-soul-on-mine/listen" type="audio/mpeg"/>
+                <description>A continous deep house DJ mix, recorded live in August 2021.</description>
+                <itunes:duration>3762</itunes:duration>
+            </item>
+        
+            <item>
                 <title>Lovely Summer Dreams - July 2021</title>
                 <link>https://deephouse.uk/mix/lovely-summer-dreams</link>
                 <pubDate>Thu, 01 Jul 2021 13:00:00 +0000</pubDate>
                 <guid>https://deephouse.uk/mix/lovely-summer-dreams</guid>
-        </item>
-        <item>
+                <enclosure url="https://hearthis.at/deephouse-uk/lovely-summer-dreams/listen" type="audio/mpeg"/>
+                <description>A continous deep house DJ mix, recorded live in July 2021.</description>
+                <itunes:duration>4621</itunes:duration>
+            </item>
+        
+            <item>
                 <title>Glad To Know You - June 2021</title>
                 <link>https://deephouse.uk/mix/glad-to-know-you</link>
                 <pubDate>Tue, 01 Jun 2021 13:00:00 +0000</pubDate>
                 <guid>https://deephouse.uk/mix/glad-to-know-you</guid>
-        </item>
-        <item>
+                <enclosure url="https://hearthis.at/deephouse-uk/glad-to-know-you/listen" type="audio/mpeg"/>
+                <description>A continous deep house DJ mix, recorded live in June 2021.</description>
+                <itunes:duration>3973</itunes:duration>
+            </item>
+        
+            <item>
                 <title>Moments - May 2021</title>
                 <link>https://deephouse.uk/mix/moments</link>
                 <pubDate>Sat, 01 May 2021 13:00:00 +0000</pubDate>
                 <guid>https://deephouse.uk/mix/moments</guid>
-        </item>
-        <item>
+                <enclosure url="https://hearthis.at/deephouse-uk/moments/listen" type="audio/mpeg"/>
+                <description>A continous deep house DJ mix, recorded live in May 2021.</description>
+                <itunes:duration>5065</itunes:duration>
+            </item>
+        
+            <item>
                 <title>Feel What Love Has - April 2021</title>
                 <link>https://deephouse.uk/mix/feel-what-love-has</link>
                 <pubDate>Thu, 01 Apr 2021 13:00:00 +0000</pubDate>
                 <guid>https://deephouse.uk/mix/feel-what-love-has</guid>
-        </item>
-        <item>
+                <enclosure url="https://hearthis.at/deephouse-uk/feel-what-love-has/listen" type="audio/mpeg"/>
+                <description>A continous deep house DJ mix, recorded live in April 2021.</description>
+                <itunes:duration>4461</itunes:duration>
+            </item>
+        
+            <item>
                 <title>The Life Behind Things - March 2021</title>
                 <link>https://deephouse.uk/mix/the-life-behind-things</link>
                 <pubDate>Mon, 01 Mar 2021 12:00:00 +0000</pubDate>
                 <guid>https://deephouse.uk/mix/the-life-behind-things</guid>
-        </item>
-        <item>
+                <enclosure url="https://hearthis.at/deephouse-uk/the-life-behind-things/listen" type="audio/mpeg"/>
+                <description>A continous deep house DJ mix, recorded live in March 2021.</description>
+                <itunes:duration>4946</itunes:duration>
+            </item>
+        
+            <item>
                 <title>Say Yes - February 2021</title>
                 <link>https://deephouse.uk/mix/say-yes</link>
                 <pubDate>Mon, 01 Feb 2021 12:00:00 +0000</pubDate>
                 <guid>https://deephouse.uk/mix/say-yes</guid>
-        </item>
-        <item>
+                <enclosure url="https://hearthis.at/deephouse-uk/say-yes/listen" type="audio/mpeg"/>
+                <description>A continous deep house DJ mix, recorded live in February 2021.</description>
+                <itunes:duration>3701</itunes:duration>
+            </item>
+        
+            <item>
                 <title>No More Mistakes - January 2021</title>
                 <link>https://deephouse.uk/mix/no-more-mistakes</link>
                 <pubDate>Fri, 01 Jan 2021 12:00:00 +0000</pubDate>
                 <guid>https://deephouse.uk/mix/no-more-mistakes</guid>
-        </item>
-        <item>
+                <enclosure url="https://hearthis.at/deephouse-uk/no-more-mistakes/listen" type="audio/mpeg"/>
+                <description>A continous deep house DJ mix, recorded live in January 2021.</description>
+                <itunes:duration>5457</itunes:duration>
+            </item>
+        
+            <item>
                 <title>High Hopes - December 2020</title>
                 <link>https://deephouse.uk/mix/high-hopes</link>
                 <pubDate>Tue, 01 Dec 2020 12:00:00 +0000</pubDate>
                 <guid>https://deephouse.uk/mix/high-hopes</guid>
-        </item>
-        <item>
+                <enclosure url="https://hearthis.at/deephouse-uk/high-hopes/listen" type="audio/mpeg"/>
+                <description>A continous deep house DJ mix, recorded live in December 2020.</description>
+                <itunes:duration>4857</itunes:duration>
+            </item>
+        
+            <item>
                 <title>Dance With Me - November 2020</title>
                 <link>https://deephouse.uk/mix/dance-with-me</link>
                 <pubDate>Sun, 01 Nov 2020 12:00:00 +0000</pubDate>
                 <guid>https://deephouse.uk/mix/dance-with-me</guid>
-        </item>
-        <item>
+                <enclosure url="https://hearthis.at/deephouse-uk/dance-with-me/listen" type="audio/mpeg"/>
+                <description>A continous deep house DJ mix, recorded live in November 2020.</description>
+                <itunes:duration>3871</itunes:duration>
+            </item>
+        
+            <item>
                 <title>Always Chicago - October 2020</title>
                 <link>https://deephouse.uk/mix/always-chicago</link>
                 <pubDate>Thu, 01 Oct 2020 13:00:00 +0000</pubDate>
                 <guid>https://deephouse.uk/mix/always-chicago</guid>
-        </item>
-        <item>
+                <enclosure url="https://hearthis.at/deephouse-uk/always-chicago/listen" type="audio/mpeg"/>
+                <description>A continous deep house DJ mix, recorded live in October 2020.</description>
+                <itunes:duration>5818</itunes:duration>
+            </item>
+        
+            <item>
                 <title>Part of the Noise - September 2020</title>
                 <link>https://deephouse.uk/mix/part-of-the-noise</link>
                 <pubDate>Tue, 01 Sep 2020 13:00:00 +0000</pubDate>
                 <guid>https://deephouse.uk/mix/part-of-the-noise</guid>
-        </item>
-        <item>
+                <enclosure url="https://hearthis.at/deephouse-uk/part-of-the-noise/listen" type="audio/mpeg"/>
+                <description>A continous deep house DJ mix, recorded live in September 2020.</description>
+                <itunes:duration>5061</itunes:duration>
+            </item>
+        
+            <item>
                 <title>Everybody Loves The Sunshine - August 2020</title>
                 <link>https://deephouse.uk/mix/everybody-loves-the-sunshine</link>
                 <pubDate>Sat, 01 Aug 2020 13:00:00 +0000</pubDate>
                 <guid>https://deephouse.uk/mix/everybody-loves-the-sunshine</guid>
-        </item>
-        <item>
+                <enclosure url="https://hearthis.at/deephouse-uk/everybody-loves-the-sunshine/listen" type="audio/mpeg"/>
+                <description>A continous deep house DJ mix, recorded live in August 2020.</description>
+                <itunes:duration>6653</itunes:duration>
+            </item>
+        
+            <item>
                 <title>You&#39;re In My System - July 2020</title>
                 <link>https://deephouse.uk/mix/youre-in-my-system</link>
                 <pubDate>Wed, 01 Jul 2020 13:00:00 +0000</pubDate>
                 <guid>https://deephouse.uk/mix/youre-in-my-system</guid>
-        </item>
-        <item>
+                <enclosure url="https://hearthis.at/deephouse-uk/youre-in-my-system/listen" type="audio/mpeg"/>
+                <description>A continous deep house DJ mix, recorded live in July 2020.</description>
+                <itunes:duration>6562</itunes:duration>
+            </item>
+        
+            <item>
                 <title>Just To Make Me - June 2020</title>
                 <link>https://deephouse.uk/mix/just-to-make-me</link>
                 <pubDate>Mon, 01 Jun 2020 13:00:00 +0000</pubDate>
                 <guid>https://deephouse.uk/mix/just-to-make-me</guid>
-        </item>
-        <item>
+                <enclosure url="https://hearthis.at/deephouse-uk/just-to-make-me/listen" type="audio/mpeg"/>
+                <description>A continous deep house DJ mix, recorded live in June 2020.</description>
+                <itunes:duration>5830</itunes:duration>
+            </item>
+        
+            <item>
                 <title>Dancing With Each Other - May 2020</title>
                 <link>https://deephouse.uk/mix/dancing-with-each-other</link>
                 <pubDate>Fri, 01 May 2020 13:00:00 +0000</pubDate>
                 <guid>https://deephouse.uk/mix/dancing-with-each-other</guid>
-        </item>
-        <item>
+                <enclosure url="https://hearthis.at/deephouse-uk/dancing-with-each-other/listen" type="audio/mpeg"/>
+                <description>A continous deep house DJ mix, recorded live in May 2020.</description>
+                <itunes:duration>4595</itunes:duration>
+            </item>
+        
+            <item>
                 <title>Hope You Can Wait - April 2020</title>
                 <link>https://deephouse.uk/mix/hope-you-can-wait</link>
                 <pubDate>Wed, 01 Apr 2020 13:00:00 +0000</pubDate>
                 <guid>https://deephouse.uk/mix/hope-you-can-wait</guid>
-        </item>
+                <enclosure url="https://hearthis.at/deephouse-uk/hope-you-can-wait/listen" type="audio/mpeg"/>
+                <description>A continous deep house DJ mix, recorded live in April 2020.</description>
+                <itunes:duration>3688</itunes:duration>
+            </item>
         
     </channel>
 </rss>

@@ -13,12 +13,12 @@ const fetchImage = async (url, filename) => {
 };
 
 const fetchMixcloud = async (mixId) => {
-  const { play_count, description, picture_primary_color } =
+  const { play_count, description, picture_primary_color, audio_length } =
     await eleventyFetch(`https://api.mixcloud.com/deephouse-uk/${mixId}`, {
       duration: "1d",
       type: "json",
     });
-  return { play_count, description, picture_primary_color };
+  return { play_count, description, picture_primary_color, audio_length };
 };
 
 const fetchHearThis = async (mixId) => {
@@ -63,6 +63,7 @@ module.exports = async function () {
       await fetchImage(hearThis.thumb, `./docs/images/mix/${slug}.jpg`);
 
       const colour = mixcloud.picture_primary_color;
+      const durationSeconds = mixcloud.audio_length;
       const month = monthFromDate(mix.date);
       const hearThisId = hearThis.id;
       const hearThisSlug = mix.hearThisSlug || slug;
@@ -82,6 +83,7 @@ module.exports = async function () {
         date: new Date(`${mix.date}T12:00:00.000Z`),
         slug,
         colour,
+        durationSeconds,
         hearThisId,
         hearThisSlug,
         mixcloudSlug,
