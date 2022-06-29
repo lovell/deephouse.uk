@@ -16,7 +16,7 @@
         {% for mix in pagination.items %}
             <item>
                 <title>{{ mix.title }} - {{ mix.month}}</title>
-                <link>https://deephouse.uk/mix/{{ mix.slug }}</link>
+                <link>https://deephouse.uk/mix/{{ mix.slug }}/</link>
                 <pubDate>{{ mix.date | dateToRfc822 }}</pubDate>
                 <guid>https://deephouse.uk/mix/{{ mix.slug }}</guid>
                 <enclosure url="https://hearthis.at/deephouse-uk/{{ mix.slug }}/listen" type="audio/mpeg" length="{{ mix.contentLength }}"/>

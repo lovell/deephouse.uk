@@ -9,6 +9,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
 />
+    <link rel="canonical" href="https://deephouse.uk/mix/{{ mix.slug }}/"/>
     <link
       rel="preconnect"
       href="https://www.googletagmanager.com"
@@ -72,8 +73,8 @@
     <meta
       name="og:title"
       content="{{ mix.title }} - Deep House Mix - Lovell Fuller - London, UK"
-    />
-    <meta name="og:url" content="https://deephouse.uk/mix/{{ mix.slug }}"/>
+/>
+    <meta name="og:url" content="https://deephouse.uk/mix/{{ mix.slug }}/"/>
     <meta name="og:image" content="https://deephouse.uk/images/mix/{{ mix.slug }}.jpg"/>
     <meta name="og:description" content="A continous deep house DJ mix, recorded live in {{ mix.month }}.">
     <meta name="description" content="A continous deep house DJ mix, recorded live in {{ mix.month }}.">
@@ -138,7 +139,8 @@
                 >
               </p>
               <ol>
-                {% for track in mix.tracklist %}<li>{{ track }}</li>
+                {% for track in mix.tracklist %}
+                  <li>{{ track }}</li>
                 {% endfor %}
               </ol>
             </article>
