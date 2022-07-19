@@ -89,6 +89,13 @@
       }
       gtag("js", new Date());
       gtag("config", "G-D6YCH899KZ", {anonymize_ip: true});
+      if (navigator.share) {
+        const shareMix = document.getElementById('share-mix');
+        shareMix.addEventListener('click', () => navigator.share({url: 'https://deephouse.uk/mix/high-hopes/'};));
+        shareMix
+          .classList
+          .remove('d-none');
+      }
     </script>
   </head>
   <body>
@@ -133,6 +140,7 @@
                   rel="noreferrer"
                   >Download</a
                 >
+                <button id="share-mix" class="d-none btn btn-sm btn-outline-secondary">Share</button>
               </p>
               <ol>
                 
