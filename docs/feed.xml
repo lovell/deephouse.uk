@@ -3,7 +3,7 @@
     <channel>
         <title>Deep House Mixes - Lovell Fuller - London, UK</title>
         <link>https://deephouse.uk</link>
-        <description>A selection of 26 deep house DJ mixes, all recorded live.</description>
+        <description>A selection of 27 deep house DJ mixes, all recorded live.</description>
         <atom:link href="https://deephouse.uk/feed.xml" rel="self" type="application/rss+xml"/>
         <language>en-GB</language>
         <itunes:image href="https://deephouse.uk/images/decks.jpg"/>
@@ -13,6 +13,16 @@
         <itunes:author>deephouse.uk</itunes:author>
         <itunes:category text="Music"/>
         <itunes:explicit>no</itunes:explicit>
+        
+            <item>
+                <title>Does It Make You Feel Good - August 2022</title>
+                <link>https://deephouse.uk/mix/does-it-make-you-feel-good/</link>
+                <pubDate>Mon, 01 Aug 2022 13:00:00 +0000</pubDate>
+                <guid>https://deephouse.uk/mix/does-it-make-you-feel-good</guid>
+                <enclosure url="https://hearthis.at/deephouse-uk/does-it-make-you-feel-good/listen" type="audio/mpeg" length="106464250"/>
+                <description>A continous deep house DJ mix, recorded live in August 2022.</description>
+                <itunes:duration>4582</itunes:duration>
+            </item>
         
             <item>
                 <title>Holiday - July 2022</title>
