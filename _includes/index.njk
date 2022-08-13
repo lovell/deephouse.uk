@@ -151,9 +151,8 @@
                   <span
                     class="position-absolute top-0 end-0 badge rounded-pill m-2"
                     style="background-color: #{{ mix.colour }}77"
-                    title="Played {{ mix.popularity }} times"
                   >
-                    &#9654; {{ mix.popularity }}
+                    {% if mix.popularity > 42 %}&#9654; {{ mix.popularity }}{% else %}NEW{% endif %}
                   </span>
                   <div class="card-body">
                     <h5 class="card-title">{{ mix.title }}</h5>
