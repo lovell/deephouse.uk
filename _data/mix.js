@@ -66,6 +66,12 @@ const monthFromDate = (date) =>
     new Date(date)
   );
 
+const thresholdLuminance = (hexColour) => {
+  const [r, g, b] = hexColour.match(/.{2}/g).map((c) => parseInt(c, 16));
+  const luminance = 0.3 * r + 0.59 * g + 0.11 * b;
+  return luminance > 128 ? "000" : "fff";
+};
+
 module.exports = async function () {
   return await Promise.all(
     mixes.map(async (mix) => {
@@ -77,6 +83,7 @@ module.exports = async function () {
       await fetchImage(hearThis.thumb, `./docs/images/mix/${slug}.jpg`);
 
       const colour = mixcloud.picture_primary_color;
+      const colourContrast = thresholdLuminance(colour);
       const durationSeconds = mixcloud.audio_length;
       const month = monthFromDate(mix.date);
       const hearThisId = hearThis.id;
@@ -97,6 +104,7 @@ module.exports = async function () {
         date: new Date(`${mix.date}T12:00:00.000Z`),
         slug,
         colour,
+        colourContrast,
         contentLength,
         durationSeconds,
         hearThisId,

@@ -89,7 +89,7 @@
         background-attachment: fixed;
         background-size: cover;
       }
-      h2 {
+      h1 {
         font-family: "Lily Script One", sans-serif;
         color: indigo;
       }
@@ -125,7 +125,7 @@
         <div class="col pt-3 pb-3">
           <header class="card shadow" style="background-color: navajowhite">
             <div class="card-body text-center">
-              <h2 class="display-5 fw-bold">deephouse.uk</h2>
+              <h1 class="display-5 fw-bold">deephouse.uk</h1>
               <p>Deep House Mixes - Lovell Fuller - London, UK</p>
             </div>
           </header>
@@ -133,7 +133,7 @@
       </div>
 
       <div class="col col-sm-12 pb-3">
-        <div class="card shadow bg-thistle">
+        <main class="card shadow bg-thistle">
           <div class="card-body pb-3">
             <div class="row row-cols-2 row-cols-sm-3 row-cols-xl-6 g-4">
               {% for mix in pagination.items %}
@@ -150,9 +150,11 @@
                   />
                   <span
                     class="position-absolute top-0 end-0 badge rounded-pill m-2"
-                    style="background-color: #{{ mix.colour }}77"
+                    style="background-color: #{{ mix.colour }}"
                   >
-                    {% if mix.popularity > 42 %}&#9654; {{ mix.popularity }}{% else %}NEW{% endif %}
+                    <span style="color: #{{ mix.colourContrast }}">
+                      {% if mix.popularity > 42 %}&#9654; {{ mix.popularity }}{% else %}NEW{% endif %}
+                    </span>
                   </span>
                   <div class="card-body">
                     <h5 class="card-title">{{ mix.title }}</h5>
@@ -168,7 +170,7 @@
               {% endfor %}
             </div>
           </div>
-        </div>
+        </main>
       </div>
     </div>
   </body>
