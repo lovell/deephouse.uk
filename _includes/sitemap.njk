@@ -4,6 +4,10 @@
         <loc>https://deephouse.uk/</loc>
         <lastmod>{{ pagination.items[0].date | toISOString }}</lastmod>
     </url>
+    <url>
+        <loc>https://deephouse.uk/feed.xml</loc>
+        <lastmod>{{ pagination.items[0].date | toISOString }}</lastmod>
+    </url>
     {% for mix in pagination.items %}<url>
         <loc>https://deephouse.uk/mix/{{ mix.slug }}/</loc>
         <lastmod>{{ mix.date | toISOString }}</lastmod>
