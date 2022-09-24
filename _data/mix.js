@@ -48,6 +48,13 @@ const fetchContentLength = async (mixId) => {
 const tracklistFromDescription = (description) =>
   description.split("\n").filter((track) => track.includes(" - "));
 
+const photoCreditFromDescription = (description) =>
+  description
+    .split("\n")
+    .filter((track) => track.startsWith("Photo by"))
+    .join("")
+    .trim();
+
 const artistsFromTracklist = (tracklist) => {
   const tags = tracklist
     .map((track) => track.split(" - ")[0])
@@ -90,6 +97,7 @@ module.exports = async function () {
       const hearThisSlug = mix.hearThisSlug || slug;
       const mixcloudSlug = mix.mixcloudSlug || slug;
       const tracklist = tracklistFromDescription(mixcloud.description);
+      const photoCredit = photoCreditFromDescription(mixcloud.description);
       const artists = artistsFromTracklist(tracklist);
       const popularity = [
         mixcloud.play_count,
@@ -112,6 +120,7 @@ module.exports = async function () {
         mixcloudSlug,
         month,
         tracklist,
+        photoCredit,
         artists,
         popularity,
       };
