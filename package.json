@@ -1,12 +1,14 @@
 {
   "scripts": {
     "build": "npx @11ty/eleventy --output=docs",
-    "serve": "npx @11ty/eleventy --output=docs --serve"
+    "serve": "npx @11ty/eleventy --output=docs --serve",
+    "image": "npx avif --input 'docs/images/mix/*.jpg' --effort 9"
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
     "@11ty/eleventy-fetch": "^3.0.0",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "avif": "^0.3.1",
     "node-fetch": "^2.6.7",
     "slugify": "^1.6.5"
   }

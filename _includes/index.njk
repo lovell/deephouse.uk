@@ -142,12 +142,16 @@
                   class="card h-100"
                   style="background-color: #{{ mix.colour }}33"
                 >
-                  <img
-                    src="/images/mix/{{ mix.slug }}.jpg"
-                    class="card-img-top"
-                    alt="{{ mix.title }} - Cover"
-                    {% if loop.index > 12 %}loading="lazy"{% endif %}
-                  />
+                  <picture>
+                    <source srcset="/images/mix/{{ mix.slug }}.avif" type="image/avif" />
+                    <img
+                      src="/images/mix/{{ mix.slug }}.jpg"
+                      class="card-img-top"
+                      style="aspect-ratio: 1/1"
+                      alt="{{ mix.title }} - Cover"
+                      {% if loop.index > 12 %}loading="lazy"{% endif %}
+                    />
+                  </picture>
                   <span
                     class="position-absolute top-0 end-0 badge rounded-pill m-2"
                     style="background-color: #{{ mix.colour }}"
