@@ -2,7 +2,7 @@
 layout: layout.njk
 eleventyComputed:
   title: "{{ mix.title }} - {{ mix.month }} - Deep House Mixes - London, UK"
-  description: "A continous deep house DJ mix, recorded live in {{ mix.month }}."
+  description: "A continuous deep house DJ mix, recorded live in {{ mix.month }}."
   image: "mix/{{ mix.slug }}"
 ---
 <article class="card-body" style="background-color: #{{ mix.colour }}11">
@@ -52,5 +52,25 @@ if (navigator.share) {
       .classList
       .remove("d-none");
   });
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "PodcastEpisode",
+  "associatedMedia": {
+    "@type": "MediaObject",
+    "contentUrl": "https://hearthis.at/deephouse-uk/{{ mix.hearThisSlug }}/download/"
+  },
+  "datePublished": "{{ mix.date.toISOString() }}",
+  "description": "{{ description }}",
+  "name": "{{ mix.title }} - {{ mix.month }}",
+  "partOfSeries": {
+    "@type": "PodcastSeries",
+    "name": "Deep House Mixes - London, UK",
+    "url": "https://deephouse.uk"
+  },
+  "timeRequired": "PT{{ mix.durationSeconds }}S",
+  "url": "https://deephouse.uk/images/mix/{{ mix.slug }}/"
 }
 </script>

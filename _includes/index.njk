@@ -42,3 +42,14 @@ layout: layout.njk
     {% endfor %}
   </div>
 </article>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "PodcastSeries",
+  "description": "{{ description }}",
+  "image": "https://deephouse.uk/images/decks.jpg",
+  "name": "{{ title }}",
+  "url": "https://deephouse.uk",
+  "webFeed": "https://deephouse.uk/feed.xml"
+}
+</script>
