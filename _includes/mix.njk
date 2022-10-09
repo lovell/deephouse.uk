@@ -64,6 +64,18 @@ if (navigator.share) {
   },
   "datePublished": "{{ mix.date.toISOString() }}",
   "description": "{{ description }}",
+  "hasPart": [
+    {% for track in mix.tracklist %}{
+      "@type": "MusicRecording",
+      "name": "{{ track }}"
+    }{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ],
+  "interactionStatistic": {
+    "@type": "InteractionCounter",
+    "interactionType": "https://schema.org/ListenAction",
+    "userInteractionCount": "{{ mix.popularity }}"
+  },
   "name": "{{ mix.title }} - {{ mix.month }}",
   "partOfSeries": {
     "@type": "PodcastSeries",
