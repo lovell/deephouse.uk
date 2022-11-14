@@ -2,6 +2,7 @@ const fs = require("fs");
 const slugify = require("slugify");
 const nodeFetch = require("node-fetch");
 const eleventyFetch = require("@11ty/eleventy-fetch");
+const sharp = require("sharp");
 
 const mixes = require("../mixes.json");
 
@@ -14,12 +15,16 @@ const fetchImage = async (url, filename) => {
 };
 
 const fetchMixcloud = async (mixId) => {
-  const { play_count, description, picture_primary_color, audio_length } =
-    await eleventyFetch(`https://api.mixcloud.com/deephouse-uk/${mixId}`, {
-      duration: "1d",
-      type: "json",
-    });
-  return { play_count, description, picture_primary_color, audio_length };
+  try {
+    const { play_count, description, picture_primary_color, audio_length } =
+      await eleventyFetch(`https://api.mixcloud.com/deephouse-uk/${mixId}`, {
+        duration: "1d",
+        type: "json",
+      });
+    return { play_count, description, picture_primary_color, audio_length };
+  } catch (err) {
+    return {};
+  }
 };
 
 const fetchHearThis = async (mixId) => {
@@ -79,25 +84,38 @@ const thresholdLuminance = (hexColour) => {
   return luminance > 128 ? "000" : "fff";
 };
 
+const dominantColour = async (filename) => {
+  const { dominant } = await sharp(filename).stats();
+  const { r, g, b } = dominant;
+  return [r, g, b].map((c) => c.toString(16).padStart(2, "0")).join("");
+};
+
 module.exports = async function () {
   return await Promise.all(
     mixes.map(async (mix) => {
       const slug = slugify(mix.title, { lower: true, strict: true });
       const mixcloud = await fetchMixcloud(mix.mixcloudSlug || slug);
       const hearThis = await fetchHearThis(mix.hearThisSlug || slug);
-      const contentLength = await fetchContentLength(mix.hearThisSlug || slug);
 
-      await fetchImage(hearThis.thumb, `./docs/images/mix/${slug}.jpg`);
-
-      const colour = mixcloud.picture_primary_color;
+      const thumbnailFilename = `./docs/images/mix/${slug}.jpg`;
+      await fetchImage(hearThis.thumb, thumbnailFilename);
+      const colour =
+        mixcloud.picture_primary_color ||
+        (await dominantColour(thumbnailFilename));
       const colourContrast = thresholdLuminance(colour);
-      const durationSeconds = mixcloud.audio_length;
+
+      const contentLength = await fetchContentLength(mix.hearThisSlug || slug);
+      const durationSeconds = mixcloud.audio_length || hearThis.duration;
       const month = monthFromDate(mix.date);
       const hearThisId = hearThis.id;
       const hearThisSlug = mix.hearThisSlug || slug;
       const mixcloudSlug = mix.mixcloudSlug || slug;
-      const tracklist = tracklistFromDescription(mixcloud.description);
-      const photoCredit = photoCreditFromDescription(mixcloud.description);
+      const tracklist = tracklistFromDescription(
+        mixcloud.description || hearThis.description
+      );
+      const photoCredit = photoCreditFromDescription(
+        mixcloud.description || hearThis.description
+      );
       const artists = artistsFromTracklist(tracklist);
       const popularity = [
         mixcloud.play_count,
