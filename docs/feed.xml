@@ -3,7 +3,7 @@
     <channel>
         <title>Deep House Mixes - London, UK</title>
         <link>https://deephouse.uk</link>
-        <description>A selection of 29 deep house DJ mixes, all recorded live.</description>
+        <description>A selection of 30 deep house DJ mixes, all recorded live.</description>
         <atom:link href="https://deephouse.uk/feed.xml" rel="self" type="application/rss+xml"/>
         <language>en-GB</language>
         <itunes:image href="https://deephouse.uk/images/decks.jpg"/>
@@ -13,6 +13,16 @@
         <itunes:author>deephouse.uk</itunes:author>
         <itunes:category text="Music"/>
         <itunes:explicit>no</itunes:explicit>
+        
+            <item>
+                <title>Twilight - November 2022</title>
+                <link>https://deephouse.uk/mix/twilight/</link>
+                <pubDate>Tue, 01 Nov 2022 12:00:00 +0000</pubDate>
+                <guid>https://deephouse.uk/mix/twilight</guid>
+                <enclosure url="https://hearthis.at/deephouse-uk/twilight/listen" type="audio/mpeg" length="88515270"/>
+                <description>A continuous deep house DJ mix, recorded live in November 2022.</description>
+                <itunes:duration>3685</itunes:duration>
+            </item>
         
             <item>
                 <title>Direct Sunlight - October 2022</title>
