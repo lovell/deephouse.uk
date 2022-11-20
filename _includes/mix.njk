@@ -20,12 +20,12 @@ eleventyComputed:
   </div>
   <p class="small text-end mb-0">Recorded live in {{ mix.month }}</p>
   <p>
-    <a
+    {% if mix.mixcloudSlug %}<a
       href="https://www.mixcloud.com/deephouse-uk/{{ mix.mixcloudSlug }}/"
       class="btn btn-sm btn-outline-secondary"
       rel="noreferrer"
       >Listen via Mixcloud</a
-    >
+    >{% endif %}
     <a
       href="https://hearthis.at/deephouse-uk/{{
         mix.hearThisSlug

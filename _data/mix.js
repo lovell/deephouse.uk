@@ -16,12 +16,12 @@ const fetchImage = async (url, filename) => {
 
 const fetchMixcloud = async (mixId) => {
   try {
-    const { play_count, description, picture_primary_color, audio_length } =
+    const { play_count, description, picture_primary_color, audio_length, slug } =
       await eleventyFetch(`https://api.mixcloud.com/deephouse-uk/${mixId}`, {
         duration: "1d",
         type: "json",
       });
-    return { play_count, description, picture_primary_color, audio_length };
+    return { play_count, description, picture_primary_color, audio_length, slug };
   } catch (err) {
     return {};
   }
@@ -109,7 +109,7 @@ module.exports = async function () {
       const month = monthFromDate(mix.date);
       const hearThisId = hearThis.id;
       const hearThisSlug = mix.hearThisSlug || slug;
-      const mixcloudSlug = mix.mixcloudSlug || slug;
+      const mixcloudSlug = mixcloud.slug;
       const tracklist = tracklistFromDescription(
         mixcloud.description || hearThis.description
       );
