@@ -9,10 +9,10 @@
     "@11ty/eleventy-fetch": "^3.0.0",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "avif": "^0.4.0",
-    "bootstrap": "^5.2.2",
+    "bootstrap": "^5.2.3",
     "eleventy-plugin-purgecss": "^0.3.0",
     "node-fetch": "^2.6.7",
-    "sharp": "^0.31.2",
+    "sharp": "^0.31.3",
     "slugify": "^1.6.5"
   }
 }
