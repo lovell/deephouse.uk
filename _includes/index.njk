@@ -2,7 +2,7 @@
 title: Deep House Mixes - London, UK
 image: decks
 eleventyComputed:
-  description: "A selection of {{ pagination.items.length }} deep house DJ mixes, all recorded live."
+  description: "A selection of {{ pagination.items.length }} deep house DJ mixes, over {{ pagination.items | sumDurationAsHours }} hours of music, all recorded live."
 layout: layout.njk
 ---
 <article class="card-body pb-3">

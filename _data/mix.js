@@ -16,26 +16,35 @@ const fetchImage = async (url, filename) => {
 
 const fetchMixcloud = async (mixId) => {
   try {
-    const { play_count, description, picture_primary_color, audio_length, slug } =
-      await eleventyFetch(`https://api.mixcloud.com/deephouse-uk/${mixId}`, {
-        duration: "1d",
-        type: "json",
-      });
-    return { play_count, description, picture_primary_color, audio_length, slug };
+    const {
+      play_count,
+      description,
+      picture_primary_color,
+      audio_length,
+      slug,
+    } = await eleventyFetch(`https://api.mixcloud.com/deephouse-uk/${mixId}`, {
+      duration: "1d",
+      type: "json",
+    });
+    return {
+      play_count,
+      description,
+      picture_primary_color,
+      audio_length,
+      slug,
+    };
   } catch (err) {
     return {};
   }
 };
 
 const fetchHearThis = async (mixId) => {
-  const { id, playback_count, download_count, thumb } = await eleventyFetch(
-    `https://api-v2.hearthis.at/deephouse-uk/${mixId}`,
-    {
+  const { id, playback_count, download_count, description, duration, thumb } =
+    await eleventyFetch(`https://api-v2.hearthis.at/deephouse-uk/${mixId}`, {
       duration: "1d",
       type: "json",
-    }
-  );
-  return { id, playback_count, download_count, thumb };
+    });
+  return { id, playback_count, download_count, description, duration, thumb };
 };
 
 const fetchContentLength = async (mixId) => {
@@ -105,7 +114,9 @@ module.exports = async function () {
       const colourContrast = thresholdLuminance(colour);
 
       const contentLength = await fetchContentLength(mix.hearThisSlug || slug);
-      const durationSeconds = mixcloud.audio_length || hearThis.duration;
+      const durationSeconds = Number(
+        mixcloud.audio_length || hearThis.duration
+      );
       const month = monthFromDate(mix.date);
       const hearThisId = hearThis.id;
       const hearThisSlug = mix.hearThisSlug || slug;

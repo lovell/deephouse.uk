@@ -3,7 +3,7 @@
     <channel>
         <title>Deep House Mixes - London, UK</title>
         <link>https://deephouse.uk</link>
-        <description>A selection of 30 deep house DJ mixes, all recorded live.</description>
+        <description>A selection of 31 deep house DJ mixes, over 37 hours of music, all recorded live.</description>
         <atom:link href="https://deephouse.uk/feed.xml" rel="self" type="application/rss+xml"/>
         <language>en-GB</language>
         <itunes:image href="https://deephouse.uk/images/decks.jpg"/>
@@ -13,6 +13,16 @@
         <itunes:author>deephouse.uk</itunes:author>
         <itunes:category text="Music"/>
         <itunes:explicit>no</itunes:explicit>
+        
+            <item>
+                <title>Angel - December 2022</title>
+                <link>https://deephouse.uk/mix/angel/</link>
+                <pubDate>Thu, 01 Dec 2022 12:00:00 +0000</pubDate>
+                <guid>https://deephouse.uk/mix/angel</guid>
+                <enclosure url="https://hearthis.at/deephouse-uk/angel/listen" type="audio/mpeg" length="91590279"/>
+                <description>A continuous deep house DJ mix, recorded live in December 2022.</description>
+                <itunes:duration>3807</itunes:duration>
+            </item>
         
             <item>
                 <title>Twilight - November 2022</title>
