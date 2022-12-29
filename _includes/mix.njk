@@ -1,7 +1,7 @@
 ---
 layout: layout.njk
 eleventyComputed:
-  title: "{{ mix.title }} - {{ mix.month }} - Deep House Mixes - London, UK"
+  title: "{{ mix.title }} - {{ mix.subtitle }} - Deep House Mixes - London, UK"
   description: "A continuous deep house DJ mix, recorded live in {{ mix.month }}."
   image: "mix/{{ mix.slug }}"
 ---
@@ -76,7 +76,7 @@ if (navigator.share) {
     "interactionType": "https://schema.org/ListenAction",
     "userInteractionCount": "{{ mix.popularity }}"
   },
-  "name": "{{ mix.title }} - {{ mix.month }}",
+  "name": "{{ mix.title }} - {{ mix.subtitle }}",
   "partOfSeries": {
     "@type": "PodcastSeries",
     "name": "Deep House Mixes - London, UK",

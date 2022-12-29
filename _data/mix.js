@@ -118,6 +118,7 @@ module.exports = async function () {
         mixcloud.audio_length || hearThis.duration
       );
       const month = monthFromDate(mix.date);
+      const subtitle = mix.subtitle || month;
       const hearThisId = hearThis.id;
       const hearThisSlug = mix.hearThisSlug || slug;
       const mixcloudSlug = mixcloud.slug;
@@ -148,6 +149,7 @@ module.exports = async function () {
         hearThisSlug,
         mixcloudSlug,
         month,
+        subtitle,
         tracklist,
         photoCredit,
         artists,

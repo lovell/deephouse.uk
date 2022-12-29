@@ -15,7 +15,7 @@
         <itunes:explicit>no</itunes:explicit>
         {% for mix in pagination.items %}
             <item>
-                <title>{{ mix.title }} - {{ mix.month}}</title>
+                <title>{{ mix.title }} - {{ mix.subtitle}}</title>
                 <link>https://deephouse.uk/mix/{{ mix.slug }}/</link>
                 <pubDate>{{ mix.date | dateToRfc822 }}</pubDate>
                 <guid>https://deephouse.uk/mix/{{ mix.slug }}</guid>
