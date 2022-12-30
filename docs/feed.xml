@@ -3,7 +3,7 @@
     <channel>
         <title>Deep House Mixes - London, UK</title>
         <link>https://deephouse.uk</link>
-        <description>A selection of 31 deep house DJ mixes, over 37 hours of music, all recorded live.</description>
+        <description>A selection of 32 deep house DJ mixes, over 38 hours of music, all recorded live.</description>
         <atom:link href="https://deephouse.uk/feed.xml" rel="self" type="application/rss+xml"/>
         <language>en-GB</language>
         <itunes:image href="https://deephouse.uk/images/decks.jpg"/>
@@ -13,6 +13,16 @@
         <itunes:author>deephouse.uk</itunes:author>
         <itunes:category text="Music"/>
         <itunes:explicit>no</itunes:explicit>
+        
+            <item>
+                <title>Vogue - NYE 2022/2023</title>
+                <link>https://deephouse.uk/mix/vogue/</link>
+                <pubDate>Sat, 31 Dec 2022 12:00:00 +0000</pubDate>
+                <guid>https://deephouse.uk/mix/vogue</guid>
+                <enclosure url="https://hearthis.at/deephouse-uk/vogue/listen" type="audio/mpeg" length="94664557"/>
+                <description>A continuous deep house DJ mix, recorded live in December 2022.</description>
+                <itunes:duration>3940</itunes:duration>
+            </item>
         
             <item>
                 <title>Angel - December 2022</title>
