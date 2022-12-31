@@ -2,7 +2,7 @@
 layout: layout.njk
 eleventyComputed:
   title: "{{ mix.title }} - {{ mix.subtitle }} - Deep House Mixes - London, UK"
-  description: "A continuous deep house DJ mix, recorded live in {{ mix.month }}."
+  description: "A continuous deep house DJ mix, recorded live in {{ mix.month }}, featuring music from {{ mix.artists | join: ', ' }}."
   image: "mix/{{ mix.slug }}"
 ---
 <article class="card-body" style="background-color: #{{ mix.colour }}11">

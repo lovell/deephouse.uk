@@ -20,7 +20,7 @@
                 <pubDate>{{ mix.date | dateToRfc822 }}</pubDate>
                 <guid>https://deephouse.uk/mix/{{ mix.slug }}</guid>
                 <enclosure url="https://hearthis.at/deephouse-uk/{{ mix.slug }}/listen" type="audio/mpeg" length="{{ mix.contentLength }}"/>
-                <description>A continuous deep house DJ mix, recorded live in {{ mix.month }}.</description>
+                <description>A continuous deep house DJ mix, recorded live in {{ mix.month }}, featuring music from {{ mix.artists | join(', ') }}.</description>
                 <itunes:duration>{{ mix.durationSeconds }}</itunes:duration>
             </item>
         {% endfor %}
