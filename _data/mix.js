@@ -47,16 +47,20 @@ const fetchHearThis = async (mixId) => {
   return { id, playback_count, download_count, description, duration, thumb };
 };
 
-const fetchContentLength = async (mixId) => {
+const fetchEnclosureMetadata = async (mixId) => {
   const url = `https://hearthis.at/deephouse-uk/${mixId}/listen`;
-  const contentLengthCache = new eleventyFetch.AssetCache(url);
-  if (contentLengthCache.isCacheValid("1d")) {
-    return contentLengthCache.getCachedValue();
+  const contentCache = new eleventyFetch.AssetCache(mixId);
+  if (contentCache.isCacheValid("1d")) {
+    const content = await contentCache.getCachedValue();
+    return String(content).split("\t");
   }
-  const { headers } = await nodeFetch(url, { method: "head" });
-  const contentLength = headers.get("content-length");
-  await contentLengthCache.save(contentLength);
-  return contentLength;
+  const location = await nodeFetch(url, { redirect: "manual" });
+  const contentUrl = location.headers.get("location");
+  const content = await nodeFetch(contentUrl, { method: "head" });
+  const contentLength = content.headers.get("content-length");
+
+  await contentCache.save(`${contentLength}\t${contentUrl}`);
+  return [contentLength, contentUrl];
 };
 
 const tracklistFromDescription = (description) =>
@@ -113,7 +117,9 @@ module.exports = async function () {
         (await dominantColour(thumbnailFilename));
       const colourContrast = thresholdLuminance(colour);
 
-      const contentLength = await fetchContentLength(mix.hearThisSlug || slug);
+      const [contentLength, contentUrl] = await fetchEnclosureMetadata(
+        mix.hearThisSlug || slug
+      );
       const durationSeconds = Number(
         mixcloud.audio_length || hearThis.duration
       );
@@ -144,6 +150,7 @@ module.exports = async function () {
         colour,
         colourContrast,
         contentLength,
+        contentUrl,
         durationSeconds,
         hearThisId,
         hearThisSlug,
