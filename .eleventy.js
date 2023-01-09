@@ -17,4 +17,10 @@ module.exports = function (eleventyConfig) {
   });
   eleventyConfig.addPlugin(pluginPurgeCss);
   eleventyConfig.addPlugin(pluginRss);
+  return {
+    dir: {
+      input: ".",
+      output: "docs",
+    },
+  };
 };
