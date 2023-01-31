@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>{{ title }}</title>
+    <title>{{ title | safe }}</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <link rel="preload" href="/fonts/lily-script-one-v13-subset.woff2" as="font" type="font/woff2"/>
@@ -42,13 +42,13 @@
     <meta name="msapplication-TileColor" content="#603cba" />
     <meta name="theme-color" content="#dadada" />
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="{{ title }}" />
+    <meta name="twitter:title" content="{{ title | safe }}" />
     <meta name="twitter:site" content="@deephouse_uk" />
     <meta name="twitter:creator" content="@deephouse_uk" />
-    <meta name="og:title" content="{{ title }}"/>
+    <meta name="og:title" content="{{ title | safe }}"/>
     <meta name="og:url" content="https://deephouse.uk" />
     <meta name="og:image" content="https://deephouse.uk/images/{{ image }}.jpg" />
-    <meta name="description" content="{{ description }}"/>
+    <meta name="description" content="{{ description | safe }}"/>
     <link rel="preconnect" href="https://www.google-analytics.com" crossorigin/>
     <link rel="preconnect" href="https://app.hearthis.at" crossorigin/>
     <link rel="preconnect" href="https://cdn.hearthis.at" crossorigin/>

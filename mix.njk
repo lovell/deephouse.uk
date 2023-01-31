@@ -2,8 +2,13 @@
 layout: layout.njk
 eleventyComputed:
   title: "{{ mix.title }} - {{ mix.subtitle }} - Deep House Mixes - London, UK"
-  description: "A continuous deep house DJ mix, recorded live in {{ mix.month }}, featuring music from {{ mix.artists | join: ', ' }}."
+  description: "A continuous deep house DJ mix, recorded live in {{ mix.month }}, featuring music from {{ mix.artists | join(', ') }}."
   image: "mix/{{ mix.slug }}"
+pagination:
+  data: mix
+  size: 1
+  alias: mix
+permalink: "/mix/{{ mix.slug }}/index.html"
 ---
 <article class="card-body" style="background-color: #{{ mix.colour }}11">
   <h3 class="card-title pb-2">{{ mix.title }}</h3>
@@ -63,7 +68,7 @@ if (navigator.share) {
     "contentUrl": "https://hearthis.at/deephouse-uk/{{ mix.hearThisSlug }}/download/"
   },
   "datePublished": "{{ mix.date.toISOString() }}",
-  "description": "{{ description }}",
+  "description": "{{ description | safe }}",
   "hasPart": [
     {% for track in mix.tracklist %}{
       "@type": "MusicRecording",
