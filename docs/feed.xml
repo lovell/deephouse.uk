@@ -3,7 +3,7 @@
     <channel>
         <title>Deep House Mixes - London, UK</title>
         <link>https://deephouse.uk</link>
-        <description>A selection of 32 deep house DJ mixes, over 38 hours of music, all recorded live.</description>
+        <description>A selection of 33 deep house DJ mixes, over 39 hours of music, all recorded live.</description>
         <atom:link href="https://deephouse.uk/feed.xml" rel="self" type="application/rss+xml"/>
         <language>en-GB</language>
         <itunes:image href="https://deephouse.uk/images/decks.jpg"/>
@@ -13,6 +13,17 @@
         <itunes:author>deephouse.uk</itunes:author>
         <itunes:category text="Music"/>
         <itunes:explicit>no</itunes:explicit>
+        
+            <item>
+                <title>Peace Through Strength - February 2023</title>
+                <link>https://deephouse.uk/mix/peace-through-strength/</link>
+                <pubDate>Wed, 01 Feb 2023 12:00:00 +0000</pubDate>
+                <guid>https://deephouse.uk/mix/peace-through-strength</guid>
+                <enclosure url="https://stream39.hearthis.at/8590a502beff04e510e3425b63dbca80.mp3" type="audio/mpeg" length="58077413"/>
+                <description>A continuous deep house DJ mix, recorded live in February 2023, featuring music from Shazz, St Germain, Derek Bays, Michal Martyniuk, YaniKa, The Ananda Project, Luca Olivotto, Crazy P, Youen, Danny Tenaglia, Ekkah.</description>
+                <itunes:duration>2410</itunes:duration>
+                <itunes:image href="https://deephouse.uk/images/mix/peace-through-strength.jpg"/>
+            </item>
         
             <item>
                 <title>Vogue - NYE 2022/2023</title>
