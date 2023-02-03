@@ -25,7 +25,7 @@ permalink: /feed.xml
                 <link>https://deephouse.uk/mix/{{ mix.slug }}/</link>
                 <pubDate>{{ mix.date | dateToRfc822 }}</pubDate>
                 <guid>https://deephouse.uk/mix/{{ mix.slug }}</guid>
-                <enclosure url="{{ mix.contentUrl }}" type="audio/mpeg" length="{{ mix.contentLength }}"/>
+                <enclosure url="https://hearthis.at/deephouse-uk/{{ mix.slug }}/listen.mp3" type="audio/mpeg" length="{{ mix.contentLength }}"/>
                 <description>A continuous deep house DJ mix, recorded live in {{ mix.month }}, featuring music from {{ mix.artists | join(', ') }}.</description>
                 <itunes:duration>{{ mix.durationSeconds }}</itunes:duration>
                 <itunes:image href="https://deephouse.uk/images/mix/{{ mix.slug }}.jpg"/>
