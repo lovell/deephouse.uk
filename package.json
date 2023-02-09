@@ -5,7 +5,7 @@
     "image": "avif --input 'docs/images/mix/*.jpg' --effort 9"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.0-beta.3",
+    "@11ty/eleventy": "^2.0.0",
     "@11ty/eleventy-fetch": "^3.0.0",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "avif": "^0.4.0",
