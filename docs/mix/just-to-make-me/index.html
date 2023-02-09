@@ -4,8 +4,8 @@
     <title>Just To Make Me - June 2020 - Deep House Mixes - London, UK</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-    <link rel="preload" href="/fonts/lily-script-one-v13-subset.woff2" as="font" type="font/woff2"/>
-    <link rel="preload" href="/fonts/open-sans-v27.woff2" as="font" type="font/woff2"/>
+    <link rel="preload" href="/fonts/lily-script-one-v13-subset.woff2" as="font" type="font/woff2" crossorigin/>
+    <link rel="preload" href="/fonts/open-sans-v27.woff2" as="font" type="font/woff2" crossorigin/>
     <link rel="stylesheet" href="/css/bootstrap.min.css"/>
     <style>
       @font-face {
@@ -78,17 +78,28 @@
       <div class="col col-sm-12 pb-3">
         <main class="card shadow bg-thistle">
           <article class="card-body" style="background-color: #98732d11">
-  <h3 class="card-title pb-2">Just To Make Me</h3>
-  <div style="width: 100%; height: 130px">
-    <iframe
-      style="border: 0; width: 100%"
-      height="130"
-      src="https://app.hearthis.at/embed/6136108/transparent/?style=2&block_size=2&block_space=1&background=0&waveform=0&cover=0&autoplay=0"
-      loading="lazy"
-      title="Just To Make Me"
-    ></iframe>
+  <div class="d-flex flex-nowrap">
+    <div class="pe-md-4 w-100">
+      <h3 class="card-title pb-3">Just To Make Me</h3>
+      <p>
+        <audio src="https://hearthis.at/deephouse-uk/just-to-make-me/listen.mp3"
+          preload="metadata" controls class="w-100 rounded"
+        />
+      </p>
+      <p class="small text-end pb-2">Recorded live in June 2020</p>
+    </div>
+    <div class="flex-shrink-1 d-none d-md-block">
+      <picture>
+        <source srcset="/images/mix/just-to-make-me.avif" type="image/avif" />
+        <img
+          src="/images/mix/just-to-make-me.jpg"
+          width="200" height="200" loading="lazy"
+          class="float-end rounded"
+          alt="Just To Make Me - Cover"
+        />
+      </picture>
+    </div>
   </div>
-  <p class="small text-end mb-0">Recorded live in June 2020</p>
   <p>
     <a
       href="https://www.mixcloud.com/deephouse-uk/just-to-make-me-deep-house-june-2020/"
@@ -238,7 +249,7 @@ if (navigator.share) {
   "interactionStatistic": {
     "@type": "InteractionCounter",
     "interactionType": "https://schema.org/ListenAction",
-    "userInteractionCount": "297"
+    "userInteractionCount": "303"
   },
   "name": "Just To Make Me - June 2020",
   "partOfSeries": {

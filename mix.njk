@@ -11,19 +11,28 @@ pagination:
 permalink: "/mix/{{ mix.slug }}/index.html"
 ---
 <article class="card-body" style="background-color: #{{ mix.colour }}11">
-  <h3 class="card-title pb-2">{{ mix.title }}</h3>
-  <div style="width: 100%; height: 130px">
-    <iframe
-      style="border: 0; width: 100%"
-      height="130"
-      src="https://app.hearthis.at/embed/{{
-        mix.hearThisId
-      }}/transparent/?style=2&block_size=2&block_space=1&background=0&waveform=0&cover=0&autoplay=0"
-      loading="lazy"
-      title="{{ mix.title }}"
-    ></iframe>
+  <div class="d-flex flex-nowrap">
+    <div class="pe-md-4 w-100">
+      <h3 class="card-title pb-3">{{ mix.title }}</h3>
+      <p>
+        <audio src="https://hearthis.at/deephouse-uk/{{ mix.slug }}/listen.mp3"
+          preload="metadata" controls class="w-100 rounded"
+        />
+      </p>
+      <p class="small text-end pb-2">Recorded live in {{ mix.month }}</p>
+    </div>
+    <div class="flex-shrink-1 d-none d-md-block">
+      <picture>
+        <source srcset="/images/mix/{{ mix.slug }}.avif" type="image/avif" />
+        <img
+          src="/images/mix/{{ mix.slug }}.jpg"
+          width="200" height="200" loading="lazy"
+          class="float-end rounded"
+          alt="{{ mix.title }} - Cover"
+        />
+      </picture>
+    </div>
   </div>
-  <p class="small text-end mb-0">Recorded live in {{ mix.month }}</p>
   <p>
     {% if mix.mixcloudSlug %}<a
       href="https://www.mixcloud.com/deephouse-uk/{{ mix.mixcloudSlug }}/"
@@ -46,7 +55,7 @@ permalink: "/mix/{{ mix.slug }}/index.html"
       <li>{{ track }}</li>
     {% endfor %}
   </ol>
-  {% if mix.photoCredit %}<p class="small text-muted">{{ mix.photoCredit }}</p>{% endif %}
+  {% if mix.photoCredit %}<p class="small text-muted d-none d-md-block">{{ mix.photoCredit }}</p>{% endif %}
 </article>
 <script>
 if (navigator.share) {
