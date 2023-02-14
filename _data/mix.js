@@ -19,7 +19,6 @@ const fetchMixcloud = async (mixId) => {
     const {
       play_count,
       description,
-      picture_primary_color,
       audio_length,
       slug,
     } = await eleventyFetch(`https://api.mixcloud.com/deephouse-uk/${mixId}`, {
@@ -29,7 +28,6 @@ const fetchMixcloud = async (mixId) => {
     return {
       play_count,
       description,
-      picture_primary_color,
       audio_length,
       slug,
     };
@@ -100,7 +98,7 @@ const thresholdLuminance = (hexColour) => {
 const dominantColour = async (filename) => {
   const { dominant } = await sharp(filename).stats();
   const { r, g, b } = dominant;
-  return [r, g, b].map((c) => c.toString(16).padStart(2, "0")).join("");
+  return [r, g, b].map((c) => Math.round(c * 0.9).toString(16).padStart(2, "0")).join("");
 };
 
 module.exports = async function () {
@@ -112,9 +110,7 @@ module.exports = async function () {
 
       const thumbnailFilename = `./docs/images/mix/${slug}.jpg`;
       await fetchImage(hearThis.thumb, thumbnailFilename);
-      const colour =
-        mixcloud.picture_primary_color ||
-        (await dominantColour(thumbnailFilename));
+      const colour = await dominantColour(thumbnailFilename);
       const colourContrast = thresholdLuminance(colour);
 
       const [contentLength, contentUrl] = await fetchEnclosureMetadata(

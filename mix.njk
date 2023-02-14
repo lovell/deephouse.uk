@@ -10,10 +10,10 @@ pagination:
   alias: mix
 permalink: "/mix/{{ mix.slug }}/index.html"
 ---
-<article class="card-body" style="background-color: #{{ mix.colour }}11">
+<article class="card-body">
   <div class="d-flex flex-nowrap">
     <div class="pe-md-4 w-100">
-      <h3 class="card-title pb-3">{{ mix.title }}</h3>
+      <h2 class="card-title pb-3 h3">{{ mix.title }}</h2>
       <p>
         <audio src="https://hearthis.at/deephouse-uk/{{ mix.slug }}/listen.mp3"
           preload="metadata" controls class="w-100 rounded"
