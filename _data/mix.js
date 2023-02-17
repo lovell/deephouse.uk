@@ -109,7 +109,7 @@ module.exports = async function () {
       const hearThis = await fetchHearThis(mix.hearThisSlug || slug);
 
       const thumbnailFilename = `./docs/images/mix/${slug}.jpg`;
-      await fetchImage(hearThis.thumb, thumbnailFilename);
+      await fetchImage(hearThis.thumb.replace("w200_h200_q70", "w274_h274_q80"), thumbnailFilename);
       const colour = await dominantColour(thumbnailFilename);
       const colourContrast = thresholdLuminance(colour);
 
