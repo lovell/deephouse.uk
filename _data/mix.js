@@ -136,6 +136,7 @@ module.exports = async function () {
         hearThis.playback_count,
         hearThis.download_count,
       ]
+        .filter(Boolean)
         .map(Number)
         .reduce((a, b) => a + b);
 
