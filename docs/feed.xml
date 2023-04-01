@@ -3,7 +3,7 @@
     <channel>
         <title>Deep House Mixes - London, UK</title>
         <link>https://deephouse.uk</link>
-        <description>A selection of 34 deep house DJ mixes, over 40 hours of music, all recorded live.</description>
+        <description>A selection of 35 deep house DJ mixes, over 41 hours of music, all recorded live.</description>
         <atom:link href="https://deephouse.uk/feed.xml" rel="self" type="application/rss+xml"/>
         <language>en-GB</language>
         <itunes:image href="https://deephouse.uk/images/decks.jpg"/>
@@ -13,6 +13,17 @@
         <itunes:author>deephouse.uk</itunes:author>
         <itunes:category text="Music"/>
         <itunes:explicit>no</itunes:explicit>
+        
+            <item>
+                <title>Paradise - April 2023</title>
+                <link>https://deephouse.uk/mix/paradise/</link>
+                <pubDate>Sat, 01 Apr 2023 13:00:00 +0000</pubDate>
+                <guid>https://deephouse.uk/mix/paradise</guid>
+                <enclosure url="https://hearthis.at/deephouse-uk/paradise/listen.mp3" type="audio/mpeg" length="88098418"/>
+                <description>A continuous deep house DJ mix, recorded live in April 2023, featuring music from ANOTR, Hotevilla, Javonntte, Fred Everything, Karl The Voice, Aron Volta, Discosteps, Crystal Waters, Soul Central, Robin S, DJ Christian B, Sebb Junior, Husky, Brazen, Kings Of Tomorrow, Nenor, Jenny Penkin, Kaz James, Nick Morgan.</description>
+                <itunes:duration>3668</itunes:duration>
+                <itunes:image href="https://deephouse.uk/images/mix/paradise.jpg"/>
+            </item>
         
             <item>
                 <title>Love And Hate - March 2023</title>
