@@ -4,7 +4,7 @@ const nodeFetch = require("node-fetch");
 const eleventyFetch = require("@11ty/eleventy-fetch");
 const sharp = require("sharp");
 
-const mixes = require("../mixes.json");
+const mixesBase = require("../mixes.json");
 
 const fetchImage = async (url, filename) => {
   const data = await eleventyFetch(url, {
@@ -16,15 +16,13 @@ const fetchImage = async (url, filename) => {
 
 const fetchMixcloud = async (mixId) => {
   try {
-    const {
-      play_count,
-      description,
-      audio_length,
-      slug,
-    } = await eleventyFetch(`https://api.mixcloud.com/deephouse-uk/${mixId}`, {
-      duration: "1d",
-      type: "json",
-    });
+    const { play_count, description, audio_length, slug } = await eleventyFetch(
+      `https://api.mixcloud.com/deephouse-uk/${mixId}`,
+      {
+        duration: "1d",
+        type: "json",
+      }
+    );
     return {
       play_count,
       description,
@@ -98,18 +96,27 @@ const thresholdLuminance = (hexColour) => {
 const dominantColour = async (filename) => {
   const { dominant } = await sharp(filename).stats();
   const { r, g, b } = dominant;
-  return [r, g, b].map((c) => Math.round(c * 0.9).toString(16).padStart(2, "0")).join("");
+  return [r, g, b]
+    .map((c) =>
+      Math.round(c * 0.9)
+        .toString(16)
+        .padStart(2, "0")
+    )
+    .join("");
 };
 
 module.exports = async function () {
-  return await Promise.all(
-    mixes.map(async (mix) => {
+  const mixes = await Promise.all(
+    mixesBase.map(async (mix) => {
       const slug = slugify(mix.title, { lower: true, strict: true });
       const mixcloud = await fetchMixcloud(mix.mixcloudSlug || slug);
       const hearThis = await fetchHearThis(mix.hearThisSlug || slug);
 
       const thumbnailFilename = `./docs/images/mix/${slug}.jpg`;
-      await fetchImage(hearThis.thumb.replace("w200_h200_q70", "w274_h274_q80"), thumbnailFilename);
+      await fetchImage(
+        hearThis.thumb.replace("w200_h200_q70", "w274_h274_q80"),
+        thumbnailFilename
+      );
       const colour = await dominantColour(thumbnailFilename);
       const colourContrast = thresholdLuminance(colour);
 
@@ -161,4 +168,20 @@ module.exports = async function () {
       };
     })
   );
+  return mixes.map((mix) => ({
+    ...mix,
+    related: mix.artists
+      .flatMap((artist) =>
+        mixes.filter(
+          (relatedMix) =>
+            relatedMix.slug !== mix.slug && relatedMix.artists.includes(artist)
+        )
+      )
+      .filter(
+        (mix1, index, all) =>
+          all.findIndex((mix2) => mix1.slug === mix2.slug) === index
+      )
+      .sort((a, b) => b.date - a.date)
+      .slice(0, 6),
+  }));
 };

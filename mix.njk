@@ -10,70 +10,120 @@ pagination:
   alias: mix
 permalink: "/mix/{{ mix.slug }}/index.html"
 ---
-<article class="card-body">
-  <div class="d-flex flex-nowrap">
-    <div class="pe-md-4 w-100">
-      <h2 class="card-title pb-3 h3">{{ mix.title }}</h2>
-      <p>
-        <audio src="https://hearthis.at/deephouse-uk/{{ mix.slug }}/listen.mp3"
-          preload="metadata" controls class="w-100 rounded"></audio>
-      </p>
-      <p class="small text-end pb-2">Recorded live in {{ mix.month }}</p>
-    </div>
-    <div class="flex-shrink-1 d-none d-md-block">
-      <picture>
-        <source srcset="/images/mix/{{ mix.slug }}.avif" type="image/avif" />
-        <img
-          src="/images/mix/{{ mix.slug }}.jpg"
-          width="200" height="200" loading="lazy"
-          class="float-end rounded"
-          alt="{{ mix.title }} - Cover"
-        />
-      </picture>
-      <span
-          class="position-absolute top-0 end-0 badge rounded-pill m-4"
-          style="background-color: #{{ mix.colour }}"
-        >
-          <span style="color: #{{ mix.colourContrast }}">
+<div class="col col-sm-12 pb-3">
+  <main class="card shadow bg-thistle">
+    <article class="card-body">
+      <div class="d-flex flex-nowrap">
+        <div class="w-100">
+          <h2 class="card-title pb-1 h3">{{ mix.title }}</h2>
+          <p class="small pb-2">Recorded live in {{ mix.month }}</p>
+          <p>
+            <audio src="https://hearthis.at/deephouse-uk/{{ mix.slug }}/listen.mp3"
+              preload="metadata" controls class="w-100 rounded"></audio>
+          </p>
+          <span
+            class="position-absolute top-0 end-0 badge rounded-pill m-3"
+            style="background-color: #eee">
+          <span style="color: #000">
             {% if mix.popularity > 42 %}
             <svg class="align-bottom me-1" xmlns="http://www.w3.org/2000/svg" width="14" height="14" role="img">
               <title>🎧</title>
-              <use href="#headphones-{{ mix.colourContrast }}" />
+              <use href="#headphones-000" />
             </svg>
             {{ mix.popularity }}{% else %}NEW{% endif %}
           </span>
         </span>
+        </div>
+      </div>
+      <div class="flex-shrink-1 d-block ms-3">
+        <picture>
+          <source srcset="/images/mix/{{ mix.slug }}.avif" type="image/avif">
+          <img
+            src="/images/mix/{{ mix.slug }}.jpg"
+            width="137" height="137"
+            class="float-end rounded ms-2"
+            alt="{{ mix.title }} - Cover">
+        </picture>
+      </div>
+      <ol>
+        {% for track in mix.tracklist %}
+          <li>{{ track }}</li>
+        {%- endfor %}
+      </ol>
+      {% if mix.photoCredit %}<p class="small text-muted d-none d-md-block">{{ mix.photoCredit }}</p>{% endif %}
+      <p>
+        {% if mix.mixcloudSlug %}<a
+          href="https://www.mixcloud.com/deephouse-uk/{{ mix.mixcloudSlug }}/"
+          class="btn btn-sm btn-outline-secondary"
+          rel="noreferrer"
+          >Listen via Mixcloud</a
+        >{% else %}<a
+          href="https://hearthis.at/deephouse-uk/{{ mix.hearThisSlug }}/"
+          class="btn btn-sm btn-outline-secondary"
+          rel="noreferrer"
+          >Listen via HearThis</a
+        >{% endif %}
+        <a
+          href="https://hearthis.at/deephouse-uk/{{
+            mix.hearThisSlug
+          }}/download/"
+          class="btn btn-sm btn-outline-secondary"
+          rel="noreferrer"
+          >Download</a
+        >
+        <button id="share-mix" class="d-none btn btn-sm btn-outline-secondary">Share</button>
+      </p>
+    </article>
+  </main>
+</div>
+{% if mix.related %}
+<div class="col col-sm-12 pb-3">
+  <footer class="card shadow bg-thistle">
+    <div class="card-body pb-3">
+      <h3 class="card-title pb-1 h5">Related mixes</h3>
+      <div class="row row-cols-2 row-cols-sm-3 row-cols-xl-6 g-4">
+        {% for related in mix.related %}
+        <article class="col">
+          <div class="card h-100" style="background-color: #{{ related.colour }}33">
+            <picture>
+              <source srcset="/images/mix/{{ related.slug }}.avif" type="image/avif">
+              <img
+                src="/images/mix/{{ related.slug }}.jpg"
+                class="card-img-top"
+                style="aspect-ratio: 1/1"
+                alt="{{ related.title }} - Cover"
+                loading="lazy">
+            </picture>
+            <span
+              class="position-absolute top-0 end-0 badge rounded-pill m-2"
+              style="background-color: #{{ related.colour }}"
+            >
+              <span style="color: #{{ related.colourContrast }}">
+                {% if related.popularity > 42 %}
+                <svg class="align-bottom me-1" xmlns="http://www.w3.org/2000/svg" width="14" height="14" role="img">
+                  <title>🎧</title>
+                  <use href="#headphones-{{ related.colourContrast }}" />
+                </svg>
+                {{ related.popularity }}{% else %}NEW{% endif %}
+              </span>
+            </span>
+            <div class="card-body">
+              <h2 class="card-title h5">{{ related.title }}</h2>
+              <h3 class="card-subtitle h6 fw-normal">{{ related.subtitle }}</h3>
+              <a
+                href="/mix/{{ related.slug }}/"
+                class="stretched-link"
+                title="{{ related.title }}"
+              ></a>
+            </div>
+          </div>
+        </article>
+        {% endfor %}
+      </div>
     </div>
-  </div>
-  <p>
-    {% if mix.mixcloudSlug %}<a
-      href="https://www.mixcloud.com/deephouse-uk/{{ mix.mixcloudSlug }}/"
-      class="btn btn-sm btn-outline-secondary"
-      rel="noreferrer"
-      >Listen via Mixcloud</a
-    >{% else %}<a
-      href="https://hearthis.at/deephouse-uk/{{ mix.hearThisSlug }}/"
-      class="btn btn-sm btn-outline-secondary"
-      rel="noreferrer"
-      >Listen via HearThis</a
-    >{% endif %}
-    <a
-      href="https://hearthis.at/deephouse-uk/{{
-        mix.hearThisSlug
-      }}/download/"
-      class="btn btn-sm btn-outline-secondary"
-      rel="noreferrer"
-      >Download</a
-    >
-    <button id="share-mix" class="d-none btn btn-sm btn-outline-secondary">Share</button>
-  </p>
-  <ol>
-    {% for track in mix.tracklist %}
-      <li>{{ track }}</li>
-    {% endfor %}
-  </ol>
-  {% if mix.photoCredit %}<p class="small text-muted d-none d-md-block">{{ mix.photoCredit }}</p>{% endif %}
-</article>
+  </footer>
+</div>
+{% endif %}
 <script>
 if (navigator.share) {
   document.addEventListener("DOMContentLoaded", () => {
