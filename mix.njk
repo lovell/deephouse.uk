@@ -45,7 +45,7 @@ permalink: "/mix/{{ mix.slug }}/index.html"
             alt="{{ mix.title }} - Cover">
         </picture>
       </div>
-      <ol>
+      <ol style="line-height:1.6">
         {% for track in mix.tracklist %}
           <li>{{ track }}</li>
         {%- endfor %}
@@ -80,7 +80,7 @@ permalink: "/mix/{{ mix.slug }}/index.html"
 <div class="col col-sm-12 pb-3">
   <footer class="card shadow bg-thistle">
     <div class="card-body pb-3">
-      <h3 class="card-title pb-1 h5">Related mixes</h3>
+      <h3 class="card-title pb-1 h5">Related Mixes</h3>
       <div class="row row-cols-2 row-cols-sm-3 row-cols-xl-6 g-4">
         {% for related in mix.related %}
         <article class="col">
@@ -109,7 +109,7 @@ permalink: "/mix/{{ mix.slug }}/index.html"
             </span>
             <div class="card-body">
               <h2 class="card-title h5">{{ related.title }}</h2>
-              <h3 class="card-subtitle h6 fw-normal">{{ related.subtitle }}</h3>
+              <h3 class="card-subtitle h6 fw-normal mt-2">{{ related.subtitle }}</h3>
               <a
                 href="/mix/{{ related.slug }}/"
                 class="stretched-link"
