@@ -3,7 +3,7 @@
     <channel>
         <title>Deep House Mixes - London, UK</title>
         <link>https://deephouse.uk</link>
-        <description>A selection of 36 deep house DJ mixes, over 42 hours of music, all recorded live.</description>
+        <description>A selection of 37 deep house DJ mixes, over 43 hours of music, all recorded live.</description>
         <atom:link href="https://deephouse.uk/feed.xml" rel="self" type="application/rss+xml"/>
         <language>en-GB</language>
         <itunes:image href="https://deephouse.uk/images/decks.jpg"/>
@@ -13,6 +13,17 @@
         <itunes:author>deephouse.uk</itunes:author>
         <itunes:category text="Music"/>
         <itunes:explicit>no</itunes:explicit>
+        
+            <item>
+                <title>Kiss Of Life - June 2023</title>
+                <link>https://deephouse.uk/mix/kiss-of-life/</link>
+                <pubDate>Thu, 01 Jun 2023 13:00:00 +0000</pubDate>
+                <guid>https://deephouse.uk/mix/kiss-of-life</guid>
+                <enclosure url="https://hearthis.at/deephouse-uk/kiss-of-life/listen.mp3" type="audio/mpeg" length="96243043"/>
+                <description>A continuous deep house DJ mix, recorded live in June 2023, featuring music from Crackazat, Frank Booker, Djoko, Black Loops, Rawdio, Jody Watley, MF Robot, The Young Punx, Lexa Hill, DJ T, Prunk, Belizbeha, Disciples, ANOTR.</description>
+                <itunes:duration>4007</itunes:duration>
+                <itunes:image href="https://deephouse.uk/images/mix/kiss-of-life.jpg"/>
+            </item>
         
             <item>
                 <title>Waves Of Change - May 2023</title>
