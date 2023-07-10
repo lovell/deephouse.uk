@@ -24,15 +24,15 @@ permalink: "/mix/{{ mix.slug }}/index.html"
           <span
             class="position-absolute top-0 end-0 badge rounded-pill m-3"
             style="background-color: #eee">
-          <span style="color: #000">
-            {% if mix.popularity > 42 %}
-            <svg class="align-bottom me-1" xmlns="http://www.w3.org/2000/svg" width="14" height="14" role="img">
-              <title>🎧</title>
-              <use href="#headphones-000" />
-            </svg>
-            {{ mix.popularity }}{% else %}NEW{% endif %}
+            <span style="color: #000">
+              {% if mix.popularity > 42 %}
+              <svg class="align-bottom me-1" xmlns="http://www.w3.org/2000/svg" width="14" height="14" role="img">
+                <title>🎧</title>
+                <use href="#headphones-000" />
+              </svg>
+              {{ mix.popularity }}{% else %}NEW{% endif %}
+            </span>
           </span>
-        </span>
         </div>
       </div>
       <div class="flex-shrink-1 d-block ms-3">
