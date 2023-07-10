@@ -45,6 +45,7 @@ permalink: "/mix/{{ mix.slug }}/index.html"
             alt="{{ mix.title }} - Cover">
         </picture>
       </div>
+      {% if mix.bpm > 0 %}<p class="small pb-2">{{ mix.bpm }} BPM</p>{% endif %}
       <ol style="line-height:1.6">
         {% for track in mix.tracklist %}
           <li>{{ track }}</li>

@@ -35,12 +35,27 @@ const fetchMixcloud = async (mixId) => {
 };
 
 const fetchHearThis = async (mixId) => {
-  const { id, playback_count, download_count, description, duration, thumb } =
-    await eleventyFetch(`https://api-v2.hearthis.at/deephouse-uk/${mixId}`, {
-      duration: "1d",
-      type: "json",
-    });
-  return { id, playback_count, download_count, description, duration, thumb };
+  const {
+    id,
+    playback_count,
+    download_count,
+    description,
+    duration,
+    thumb,
+    bpm,
+  } = await eleventyFetch(`https://api-v2.hearthis.at/deephouse-uk/${mixId}`, {
+    duration: "1d",
+    type: "json",
+  });
+  return {
+    id,
+    playback_count,
+    download_count,
+    description,
+    duration,
+    thumb,
+    bpm,
+  };
 };
 
 const fetchEnclosureMetadata = async (mixId) => {
@@ -131,6 +146,7 @@ module.exports = async function () {
       const hearThisId = hearThis.id;
       const hearThisSlug = mix.hearThisSlug || slug;
       const mixcloudSlug = mixcloud.slug;
+      const { bpm } = hearThis;
       const tracklist = tracklistFromDescription(
         mixcloud.description || hearThis.description
       );
@@ -161,6 +177,7 @@ module.exports = async function () {
         mixcloudSlug,
         month,
         subtitle,
+        bpm,
         tracklist,
         photoCredit,
         artists,
