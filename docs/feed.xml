@@ -3,7 +3,7 @@
     <channel>
         <title>Deep House Mixes - London, UK</title>
         <link>https://deephouse.uk</link>
-        <description>A selection of 40 deep house DJ mixes, over 46 hours of music, all recorded live.</description>
+        <description>A selection of 41 deep house DJ mixes, over 47 hours of music, all recorded live.</description>
         <atom:link href="https://deephouse.uk/feed.xml" rel="self" type="application/rss+xml"/>
         <language>en-GB</language>
         <itunes:image href="https://deephouse.uk/images/decks.jpg"/>
@@ -13,6 +13,17 @@
         <itunes:author>deephouse.uk</itunes:author>
         <itunes:category text="Music"/>
         <itunes:explicit>no</itunes:explicit>
+        
+            <item>
+                <title>Spook - Halloween 2023</title>
+                <link>https://deephouse.uk/mix/spook/</link>
+                <pubDate>Tue, 31 Oct 2023 12:00:00 +0000</pubDate>
+                <guid>https://deephouse.uk/mix/spook</guid>
+                <enclosure url="https://hearthis.at/deephouse-uk/spook/listen.mp3" type="audio/mpeg" length="89184256"/>
+                <description>A continuous deep house DJ mix, recorded live in October 2023, featuring music from Spook, Dry, Bolinger, Franck Roger, DJ Deep, Lion Babe, Chaos In The CBD, Demuja, Sable Blanc, Bronx Cheer, Random Soul, Louie Vega, Honey Dijon, Round One, Andy Caine, Paper Music.</description>
+                <itunes:duration>3712</itunes:duration>
+                <itunes:image href="https://deephouse.uk/images/mix/spook.jpg"/>
+            </item>
         
             <item>
                 <title>Rinse And Repeat - September 2023</title>
