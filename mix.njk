@@ -16,7 +16,10 @@ permalink: "/mix/{{ mix.slug }}/index.html"
       <div class="d-flex flex-nowrap">
         <div class="w-100">
           <h2 class="card-title pb-1 h3">{{ mix.title }}</h2>
-          <p class="small pb-2">Recorded live in {{ mix.month }}</p>
+          <p class="small pb-2">
+            Recorded live in {{ mix.month }}
+            {% if mix.month != mix.subtitle %}for {{ mix.subtitle }}{% endif %}
+          </p>
           <p>
             <audio src="https://hearthis.at/deephouse-uk/{{ mix.slug }}/listen.mp3"
               preload="metadata" controls class="w-100 rounded"></audio>
