@@ -3,7 +3,7 @@
     <channel>
         <title>Deep House Mixes - London, UK</title>
         <link>https://deephouse.uk</link>
-        <description>A selection of 41 deep house DJ mixes, over 47 hours of music, all recorded live.</description>
+        <description>A selection of 42 deep house DJ mixes, over 48 hours of music, all recorded live.</description>
         <atom:link href="https://deephouse.uk/feed.xml" rel="self" type="application/rss+xml"/>
         <language>en-GB</language>
         <itunes:image href="https://deephouse.uk/images/decks.jpg"/>
@@ -13,6 +13,17 @@
         <itunes:author>deephouse.uk</itunes:author>
         <itunes:category text="Music"/>
         <itunes:explicit>no</itunes:explicit>
+        
+            <item>
+                <title>Deepen - December 2023</title>
+                <link>https://deephouse.uk/mix/deepen/</link>
+                <pubDate>Fri, 01 Dec 2023 12:00:00 +0000</pubDate>
+                <guid>https://deephouse.uk/mix/deepen</guid>
+                <enclosure url="https://hearthis.at/deephouse-uk/deepen/listen.mp3" type="audio/mpeg" length="89302183"/>
+                <description>A continuous deep house DJ mix, recorded live in December 2023, featuring music from Get To Know, Maison Blanche, Bushwacka!, T Markakis, Modento, Mirco Savoldelli, Julie McKnight, Moloko, Franck Roger, The Phantom, Duwayne Motley, Zandrina, Cody Currie.</description>
+                <itunes:duration>3799</itunes:duration>
+                <itunes:image href="https://deephouse.uk/images/mix/deepen.jpg"/>
+            </item>
         
             <item>
                 <title>Spook - Halloween 2023</title>
