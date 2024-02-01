@@ -91,7 +91,7 @@ const artistsFromTracklist = (tracklist) => {
       artist
         .split(/( feat | and | x |, )/)
         .map((tag) => tag.trim())
-        .filter((tag) => !["feat", "and", "x", ", "].includes(tag))
+        .filter((tag) => !["feat", "and", "x", ",", ", "].includes(tag))
     )
     .flat();
   return tags;
