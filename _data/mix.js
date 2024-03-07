@@ -1,6 +1,5 @@
 const fs = require("fs");
 const slugify = require("slugify");
-const nodeFetch = require("node-fetch");
 const eleventyFetch = require("@11ty/eleventy-fetch");
 const sharp = require("sharp");
 
@@ -65,9 +64,9 @@ const fetchEnclosureMetadata = async (mixId) => {
     const content = await contentCache.getCachedValue();
     return String(content).split("\t");
   }
-  const location = await nodeFetch(url, { redirect: "manual" });
+  const location = await fetch(url, { redirect: "manual" });
   const contentUrl = location.headers.get("location");
-  const content = await nodeFetch(contentUrl, { method: "head" });
+  const content = await fetch(contentUrl, { method: "head" });
   const contentLength = content.headers.get("content-length");
 
   await contentCache.save(`${contentLength}\t${contentUrl}`);
