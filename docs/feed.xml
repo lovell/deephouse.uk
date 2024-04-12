@@ -3,7 +3,7 @@
     <channel>
         <title>Deep House Mixes - London, UK</title>
         <link>https://deephouse.uk</link>
-        <description>A selection of 43 deep house DJ mixes, over 49 hours of music, all recorded live.</description>
+        <description>A selection of 44 deep house DJ mixes, over 50 hours of music, all recorded live.</description>
         <atom:link href="https://deephouse.uk/feed.xml" rel="self" type="application/rss+xml"/>
         <language>en-GB</language>
         <itunes:image href="https://deephouse.uk/images/decks.jpg"/>
@@ -13,6 +13,17 @@
         <itunes:author>deephouse.uk</itunes:author>
         <itunes:category text="Music"/>
         <itunes:explicit>no</itunes:explicit>
+        
+            <item>
+                <title>Kerri - April 2024</title>
+                <link>https://deephouse.uk/mix/kerri/</link>
+                <pubDate>Mon, 01 Apr 2024 13:00:00 +0000</pubDate>
+                <guid>https://deephouse.uk/mix/kerri</guid>
+                <enclosure url="https://hearthis.at/deephouse-uk/kerri/listen.mp3" type="audio/mpeg" length="88239166"/>
+                <description>A continuous deep house DJ mix, recorded live in April 2024, featuring music from Marissa Guzman, Kerri Chandler, Bluey Robinson, Christopher McCray, Roy Ayres, Nadir Simon.</description>
+                <itunes:duration>3668</itunes:duration>
+                <itunes:image href="https://deephouse.uk/images/mix/kerri.jpg"/>
+            </item>
         
             <item>
                 <title>Cash - February 2024</title>
@@ -372,7 +383,7 @@
                 <pubDate>Mon, 01 Feb 2021 12:00:00 +0000</pubDate>
                 <guid>https://deephouse.uk/mix/say-yes</guid>
                 <enclosure url="https://hearthis.at/deephouse-uk/say-yes/listen.mp3" type="audio/mpeg" length="88844956"/>
-                <description>A continuous deep house DJ mix, recorded live in February 2021, featuring music from Robb Scott, HNNY, Hot Sand, Onda, Kings Of Tomorrow, Central Living, Floetry, Louie Fresco, Lovebirds, Vincenzo, FCL.</description>
+                <description>A continuous deep house DJ mix, recorded live in February 2021, featuring music from Robb Scott, HNNY, Hot Sand, Onda, Kings Of Tomorrow, Central Living, Floetry, Jersey Street Allstars, Louie Fresco, Lovebirds, Vincenzo, FCL.</description>
                 <itunes:duration>3701</itunes:duration>
                 <itunes:image href="https://deephouse.uk/images/mix/say-yes.jpg"/>
             </item>
