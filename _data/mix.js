@@ -73,6 +73,16 @@ const fetchEnclosureMetadata = async (mixId) => {
   return [contentLength, contentUrl];
 };
 
+const summaryFromDescription = (description) =>
+  description.split("\n")
+    .filter((line) => line.trim().length > 0)
+    .filter((line) => !line.includes(" - "))
+    .filter((line) => !line.includes("unsplash"))
+    .filter((line) => !line.startsWith("Recorded live"))
+    .filter((line) => !line.startsWith("Photo by"))
+    .join("")
+    .trim();
+
 const tracklistFromDescription = (description) =>
   description.split("\n").filter((track) => track.includes(" - "));
 
@@ -93,7 +103,7 @@ const artistsFromTracklist = (tracklist) => {
         .filter((tag) => !["feat", "and", "x", ",", ", "].includes(tag))
     )
     .flat();
-  return tags;
+  return [...new Set(tags)];
 };
 
 const monthFromDate = (date) =>
@@ -146,12 +156,10 @@ module.exports = async function () {
       const hearThisSlug = mix.hearThisSlug || slug;
       const mixcloudSlug = mixcloud.slug;
       const { bpm } = hearThis;
-      const tracklist = tracklistFromDescription(
-        mixcloud.description || hearThis.description
-      );
-      const photoCredit = photoCreditFromDescription(
-        mixcloud.description || hearThis.description
-      );
+      const description = mixcloud.description || hearThis.description;
+      const summary = summaryFromDescription(description);
+      const tracklist = tracklistFromDescription(description);
+      const photoCredit = photoCreditFromDescription(description);
       const artists = artistsFromTracklist(tracklist);
       const popularity = [
         mixcloud.play_count,
@@ -177,6 +185,7 @@ module.exports = async function () {
         month,
         subtitle,
         bpm,
+        summary,
         tracklist,
         photoCredit,
         artists,
