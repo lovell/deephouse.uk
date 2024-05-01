@@ -3,7 +3,7 @@
     <channel>
         <title>Deep House Mixes - London, UK</title>
         <link>https://deephouse.uk</link>
-        <description>A selection of 44 deep house DJ mixes, over 50 hours of music, all recorded live.</description>
+        <description>A selection of 45 deep house DJ mixes, over 51 hours of music, all recorded live.</description>
         <atom:link href="https://deephouse.uk/feed.xml" rel="self" type="application/rss+xml"/>
         <language>en-GB</language>
         <itunes:image href="https://deephouse.uk/images/decks.jpg"/>
@@ -13,6 +13,17 @@
         <itunes:author>deephouse.uk</itunes:author>
         <itunes:category text="Music"/>
         <itunes:explicit>no</itunes:explicit>
+        
+            <item>
+                <title>Tell Me - May 2024</title>
+                <link>https://deephouse.uk/mix/tell-me/</link>
+                <pubDate>Wed, 01 May 2024 13:00:00 +0000</pubDate>
+                <guid>https://deephouse.uk/mix/tell-me</guid>
+                <enclosure url="https://hearthis.at/deephouse-uk/tell-me/listen.mp3" type="audio/mpeg" length="99958031"/>
+                <description>A continuous deep house DJ mix, recorded live in May 2024, featuring music from Salt City Orchestra, Ame Strong, Home, Garden, Lisa Shaw, Sam Ruffillo, Retromigration, Moon Boots, Modento, Clive From Accounts, Joselacruz, Thierry Tomas, Saison, Tom Caruso, Rachel Barror, Uschi Classen.</description>
+                <itunes:duration>4157</itunes:duration>
+                <itunes:image href="https://deephouse.uk/images/mix/tell-me.jpg"/>
+            </item>
         
             <item>
                 <title>Kerri - April 2024</title>
