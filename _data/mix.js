@@ -58,7 +58,7 @@ const fetchHearThis = async (mixId) => {
 };
 
 const fetchEnclosureMetadata = async (mixId) => {
-  const url = `https://hearthis.at/deephouse-uk/${mixId}/listen`;
+  const url = `https://hearthis.app/deephouse-uk/${mixId}/listen/`;
   const contentCache = new eleventyFetch.AssetCache(mixId);
   if (contentCache.isCacheValid("1d")) {
     const content = await contentCache.getCachedValue();
