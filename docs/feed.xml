@@ -3,7 +3,7 @@
     <channel>
         <title>Deep House Mixes - London, UK</title>
         <link>https://deephouse.uk</link>
-        <description>A selection of 45 deep house DJ mixes, over 51 hours of music, all recorded live.</description>
+        <description>A selection of 46 deep house DJ mixes, over 52 hours of music, all recorded live.</description>
         <atom:link href="https://deephouse.uk/feed.xml" rel="self" type="application/rss+xml"/>
         <language>en-GB</language>
         <itunes:image href="https://deephouse.uk/images/decks.jpg"/>
@@ -13,6 +13,17 @@
         <itunes:author>deephouse.uk</itunes:author>
         <itunes:category text="Music"/>
         <itunes:explicit>no</itunes:explicit>
+        
+            <item>
+                <title>Joy - June 2024</title>
+                <link>https://deephouse.uk/mix/joy/</link>
+                <pubDate>Sat, 01 Jun 2024 13:00:00 +0000</pubDate>
+                <guid>https://deephouse.uk/mix/joy</guid>
+                <enclosure url="https://hearthis.at/deephouse-uk/joy/listen.mp3" type="audio/mpeg" length="88145439"/>
+                <description>A continuous deep house DJ mix, recorded live in June 2024, featuring music from TshegoTMM, Romeo Louisa, Next Phase, Helen Bruner, Terry Jones, N-Joi, Saffron, Kevin McKay, Lux Velour, Notelle, Sean McCabe, Jennifer Wallace, Storken, Pete Heller, Ridney, Negrocan, The Journey Men, Patrick Green, Mo&#39;Cream.</description>
+                <itunes:duration>3662</itunes:duration>
+                <itunes:image href="https://deephouse.uk/images/mix/joy.jpg"/>
+            </item>
         
             <item>
                 <title>Tell Me - May 2024</title>
