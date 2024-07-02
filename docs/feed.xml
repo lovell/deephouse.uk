@@ -3,7 +3,7 @@
     <channel>
         <title>Deep House Mixes - London, UK</title>
         <link>https://deephouse.uk</link>
-        <description>A selection of 46 deep house DJ mixes, over 52 hours of music, all recorded live.</description>
+        <description>A selection of 47 deep house DJ mixes, over 53 hours of music, all recorded live.</description>
         <atom:link href="https://deephouse.uk/feed.xml" rel="self" type="application/rss+xml"/>
         <language>en-GB</language>
         <itunes:image href="https://deephouse.uk/images/decks.jpg"/>
@@ -13,6 +13,17 @@
         <itunes:author>deephouse.uk</itunes:author>
         <itunes:category text="Music"/>
         <itunes:explicit>no</itunes:explicit>
+        
+            <item>
+                <title>Summer Girl - July 2024</title>
+                <link>https://deephouse.uk/mix/summer-girl/</link>
+                <pubDate>Mon, 01 Jul 2024 13:00:00 +0000</pubDate>
+                <guid>https://deephouse.uk/mix/summer-girl</guid>
+                <enclosure url="https://hearthis.at/deephouse-uk/summer-girl/listen.mp3" type="audio/mpeg" length="93057922"/>
+                <description>A continuous deep house DJ mix, recorded live in July 2024, featuring music from Haim, Sean McCabe, Hannah Khemoh, Sourires, Cassady, Staci, Joey Negro, Eli Escobar, Queenie, Spiritchaser, Terry Grant, Charles Caliber, Moon Boots, Little Boots, Lello Russo, Manuel Kane, Saison.</description>
+                <itunes:duration>3873</itunes:duration>
+                <itunes:image href="https://deephouse.uk/images/mix/summer-girl.jpg"/>
+            </item>
         
             <item>
                 <title>Joy - June 2024</title>
