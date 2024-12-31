@@ -3,7 +3,7 @@
     <channel>
         <title>Deep House Mixes - London, UK</title>
         <link>https://deephouse.uk</link>
-        <description>A selection of 48 deep house DJ mixes, over 54 hours of music, all recorded live.</description>
+        <description>A selection of 49 deep house DJ mixes, over 55 hours of music, all recorded live.</description>
         <atom:link href="https://deephouse.uk/feed.xml" rel="self" type="application/rss+xml"/>
         <language>en-GB</language>
         <itunes:image href="https://deephouse.uk/images/decks.jpg"/>
@@ -13,6 +13,17 @@
         <itunes:author>deephouse.uk</itunes:author>
         <itunes:category text="Music"/>
         <itunes:explicit>no</itunes:explicit>
+        
+            <item>
+                <title>Come On Over - NYE 2024/2025</title>
+                <link>https://deephouse.uk/mix/come-on-over/</link>
+                <pubDate>Tue, 31 Dec 2024 12:00:00 GMT</pubDate>
+                <guid>https://deephouse.uk/mix/come-on-over</guid>
+                <enclosure url="https://hearthis.at/deephouse-uk/come-on-over/listen.mp3" type="audio/mpeg" length="88459117"/>
+                <description>A continuous deep house DJ mix, recorded live in December 2024, featuring music from Madcliff, Miguel Migs, Meshell Ndegeocello, Wham, Luke Solomon, Amp Fiddler, MOD, Luisen, Parcels, Mothers Favorite Child, Saeeda Wright, MF Robots, Jamiroquai, Nile Rodgers, Chic, Angelo Ferreri.</description>
+                <itunes:duration>3681</itunes:duration>
+                <itunes:image href="https://deephouse.uk/images/mix/come-on-over.jpg"/>
+            </item>
         
             <item>
                 <title>So Good To Me - December 2024</title>
