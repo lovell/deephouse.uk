@@ -3,7 +3,7 @@
     <channel>
         <title>Deep House Mixes - London, UK</title>
         <link>https://deephouse.uk</link>
-        <description>A selection of 49 deep house DJ mixes, over 55 hours of music, all recorded live.</description>
+        <description>A selection of 50 deep house DJ mixes, over 56 hours of music, all recorded live.</description>
         <atom:link href="https://deephouse.uk/feed.xml" rel="self" type="application/rss+xml"/>
         <language>en-GB</language>
         <itunes:image href="https://deephouse.uk/images/decks.jpg"/>
@@ -13,6 +13,17 @@
         <itunes:author>deephouse.uk</itunes:author>
         <itunes:category text="Music"/>
         <itunes:explicit>no</itunes:explicit>
+        
+            <item>
+                <title>Looking In - February 2025</title>
+                <link>https://deephouse.uk/mix/looking-in/</link>
+                <pubDate>Sat, 01 Feb 2025 12:00:00 GMT</pubDate>
+                <guid>https://deephouse.uk/mix/looking-in</guid>
+                <enclosure url="https://hearthis.at/deephouse-uk/looking-in/listen.mp3" type="audio/mpeg" length="87260912"/>
+                <description>A continuous deep house DJ mix, recorded live in February 2025, featuring music from Cody Currie, Stee, Mik, Chris Stussy, Shur-I-Kan, Alexander East, Waajeed, Underground System, Moloko, Solar House, Franck Roger, Sebb Junior, Saison, Secret Night Gang.</description>
+                <itunes:duration>3630</itunes:duration>
+                <itunes:image href="https://deephouse.uk/images/mix/looking-in.jpg"/>
+            </item>
         
             <item>
                 <title>Come On Over - NYE 2024/2025</title>
