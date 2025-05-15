@@ -26,18 +26,6 @@ permalink: "/mix/{{ mix.slug }}/index.html"
             <audio src="https://hearthis.app/deephouse-uk/{{ mix.slug }}/listen/"
               preload="metadata" controls class="w-100 rounded"></audio>
           </p>
-          <span
-            class="position-absolute top-0 end-0 badge rounded-pill m-3"
-            style="background-color: #eee">
-            <span style="color: #000">
-              {% if mix.popularity > 42 %}
-              <svg class="align-bottom me-1" xmlns="http://www.w3.org/2000/svg" width="14" height="14" role="img">
-                <title>🎧</title>
-                <use href="#headphones-000" />
-              </svg>
-              {{ mix.popularity }}{% else %}NEW{% endif %}
-            </span>
-          </span>
         </div>
       </div>
       <div class="flex-shrink-1 d-block ms-3">
@@ -56,7 +44,7 @@ permalink: "/mix/{{ mix.slug }}/index.html"
           <li>{{ track }}</li>
         {%- endfor %}
       </ol>
-      {% if mix.photoCredit %}<p class="small text-muted d-none d-md-block">{{ mix.photoCredit }}</p>{% endif %}
+      {% if mix.photoCredit %}<p class="small text-muted d-none d-md-block">Photo by {{ mix.photoCredit }}</p>{% endif %}
       <p>
         {% if mix.mixcloudSlug %}<a
           href="https://www.mixcloud.com/deephouse-uk/{{ mix.mixcloudSlug }}/"
@@ -100,19 +88,6 @@ permalink: "/mix/{{ mix.slug }}/index.html"
                 alt="{{ related.title }} - Cover"
                 loading="lazy">
             </picture>
-            <span
-              class="position-absolute top-0 end-0 badge rounded-pill m-2"
-              style="background-color: #{{ related.colour }}"
-            >
-              <span style="color: #{{ related.colourContrast }}">
-                {% if related.popularity > 42 %}
-                <svg class="align-bottom me-1" xmlns="http://www.w3.org/2000/svg" width="14" height="14" role="img">
-                  <title>🎧</title>
-                  <use href="#headphones-{{ related.colourContrast }}" />
-                </svg>
-                {{ related.popularity }}{% else %}NEW{% endif %}
-              </span>
-            </span>
             <div class="card-body">
               <h2 class="card-title h5">{{ related.title }}</h2>
               <h3 class="card-subtitle h6 fw-normal mt-2">{{ related.subtitle }}</h3>
@@ -158,11 +133,6 @@ if (navigator.share) {
     }{% if not loop.last %},{% endif %}
     {% endfor %}
   ],
-  "interactionStatistic": {
-    "@type": "InteractionCounter",
-    "interactionType": "https://schema.org/ListenAction",
-    "userInteractionCount": "{{ mix.popularity }}"
-  },
   "name": "{{ mix.title }} - {{ mix.subtitle }}",
   "partOfSeries": {
     "@type": "PodcastSeries",

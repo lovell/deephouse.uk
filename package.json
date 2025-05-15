@@ -5,13 +5,10 @@
     "image": "avif --input 'docs/images/mix/*.jpg' --effort 9"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0",
-    "@11ty/eleventy-fetch": "^5.0.1",
-    "@11ty/eleventy-plugin-rss": "^2.0.2",
+    "@11ty/eleventy": "^3.1.0",
+    "@11ty/eleventy-plugin-rss": "^2.0.4",
     "avif": "^0.5.3",
-    "bootstrap": "^5.3.3",
-    "eleventy-plugin-purgecss": "^0.5.0",
-    "sharp": "^0.33.5",
-    "slugify": "^1.6.6"
+    "bootstrap": "^5.3.6",
+    "eleventy-plugin-purgecss": "^0.5.0"
   }
 }
