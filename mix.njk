@@ -23,7 +23,7 @@ permalink: "/mix/{{ mix.slug }}/index.html"
             {%- endif %}
           </p>
           <p>
-            <audio src="https://hearthis.app/deephouse-uk/{{ mix.slug }}/listen/"
+            <audio src="https://mix.deephouse.uk/deephouse-uk-{{ mix.dateIso }}-{{ mix.slug }}.oga"
               preload="metadata" controls class="w-100 rounded"></audio>
           </p>
         </div>
@@ -45,28 +45,7 @@ permalink: "/mix/{{ mix.slug }}/index.html"
         {%- endfor %}
       </ol>
       {% if mix.photoCredit %}<p class="small text-muted d-none d-md-block">Photo by {{ mix.photoCredit }}</p>{% endif %}
-      <p>
-        {% if mix.mixcloudSlug %}<a
-          href="https://www.mixcloud.com/deephouse-uk/{{ mix.mixcloudSlug }}/"
-          class="btn btn-sm btn-outline-secondary"
-          rel="noreferrer"
-          >Listen via Mixcloud</a
-        >{% else %}<a
-          href="https://hearthis.at/deephouse-uk/{{ mix.hearThisSlug }}/"
-          class="btn btn-sm btn-outline-secondary"
-          rel="noreferrer"
-          >Listen via HearThis</a
-        >{% endif %}
-        <a
-          href="https://hearthis.app/deephouse-uk/{{
-            mix.hearThisSlug
-          }}/download/"
-          class="btn btn-sm btn-outline-secondary"
-          rel="noreferrer"
-          >Download</a
-        >
-        <button id="share-mix" class="d-none btn btn-sm btn-outline-secondary">Share</button>
-      </p>
+      <button id="share-mix" class="d-none btn btn-sm btn-outline-secondary">Share</button>
     </article>
   </main>
 </div>
@@ -122,7 +101,7 @@ if (navigator.share) {
   "@type": "PodcastEpisode",
   "associatedMedia": {
     "@type": "MediaObject",
-    "contentUrl": "https://hearthis.at/deephouse-uk/{{ mix.hearThisSlug }}/download/"
+    "contentUrl": "https://mix.deephouse.uk/deephouse-uk-{{ mix.dateIso }}-{{ mix.slug }}.oga"
   },
   "datePublished": "{{ mix.date.toISOString() }}",
   "description": "{{ description | safe }}",

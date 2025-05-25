@@ -2,6 +2,7 @@
   "scripts": {
     "build": "eleventy",
     "serve": "eleventy --serve",
+    "oga": "node scripts/convert-to-oga.mjs",
     "image": "avif --input 'docs/images/mix/*.jpg' --effort 9"
   },
   "devDependencies": {
