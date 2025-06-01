@@ -1,7 +1,7 @@
 ---
 pagination:
   data: mix
-  size: 50
+  size: 100
 permalink: /feed.xml
 ---
 <?xml version="1.0" encoding="utf-8"?>
@@ -28,7 +28,7 @@ permalink: /feed.xml
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-{{ mix.dateIso }}-{{ mix.slug }}.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in {{ mix.month }}, featuring music from {{ mix.artists | join(', ') }}.</description>
                 <itunes:duration>{{ mix.durationSeconds }}</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/{{ mix.slug }}.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/{{ mix.slug }}.jpg/full/600,/0/default.jpg"/>
             </item>
         {% endfor %}
     </channel>
