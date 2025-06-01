@@ -1,4 +1,29 @@
 [
+    {
+    "title": "Blue Skies",
+    "subtitle": "June 2025",
+    "date": "2025-06-01",
+    "slug": "blue-skies",
+    "bpm": 121,
+    "durationSeconds": 3718,
+    "colour": "68b8e8",
+    "photoCredit": "Karim Boubker",
+    "photoUrl": "https://unsplash.com/photos/zxNL2Vq48KY",
+    "tracklist": [
+      "Playin 4 The City - Time 4 Passion",
+      "Don Swing - Fabulous (Franck Roger Remix)",
+      "Urban Blues Project present Michael Procter - Love Don't Live (The Soulfuric Dub Mix)",
+      "Sir Soundbender - Keep It Positive (Miggedy's Full Bloom Mix)",
+      "Manuel Kane - Chords Of Soul",
+      "Palavas - One Night Is Not Enough (Jimpster Remix)",
+      "Clive From Accounts feat Maya Kuroki and Jessica Roch - Konsumu Suru",
+      "Karl Sierra - Vibe All Night (Soledrifter Remix)",
+      "Philippa - Blue Skies (Fouk Remix Extended)",
+      "Kid Massive and Raoul feat Ijeoma - Island Breeze (Trentemøller Mix)",
+      "Lovebirds - National",
+      "Sebb Junior - My Mind (Extended Mix)"
+    ]
+  },
   {
     "title": "Looking In",
     "subtitle": "February 2025",
@@ -20,7 +45,7 @@
       "Franck Roger - Best Thing I Have",
       "Sebb Junior - You Don't Know Me (Extended Mix)",
       "Saison - The Truth (Extended Mix)",
-      "Secret Night Gang - Captured  (Ron Basejam Remix)"
+      "Secret Night Gang - Captured (Ron Basejam Remix)"
     ]
   },
   {

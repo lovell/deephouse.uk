@@ -3,7 +3,7 @@
     <channel>
         <title>Deep House Mixes - London, UK</title>
         <link>https://deephouse.uk</link>
-        <description>A selection of 50 deep house DJ mixes, over 56 hours of music, all recorded live.</description>
+        <description>A selection of 51 deep house DJ mixes, over 57 hours of music, all recorded live.</description>
         <atom:link href="https://deephouse.uk/feed.xml" rel="self" type="application/rss+xml"/>
         <language>en-GB</language>
         <itunes:image href="https://deephouse.uk/images/decks.jpg"/>
@@ -15,6 +15,17 @@
         <itunes:explicit>no</itunes:explicit>
         
             <item>
+                <title>Blue Skies - June 2025</title>
+                <link>https://deephouse.uk/mix/blue-skies/</link>
+                <pubDate>Sun, 01 Jun 2025 13:00:00 GMT</pubDate>
+                <guid>https://deephouse.uk/mix/blue-skies</guid>
+                <enclosure url="https://mix.deephouse.uk/deephouse-uk-2025-06-01-blue-skies.oga" type="audio/ogg" />
+                <description>A continuous deep house DJ mix, recorded live in June 2025, featuring music from Playin 4 The City, Don Swing, Urban Blues Project present Michael Procter, Sir Soundbender, Manuel Kane, Palavas, Clive From Accounts, Maya Kuroki, Jessica Roch, Karl Sierra, Philippa, Kid Massive, Raoul, Ijeoma, Lovebirds, Sebb Junior.</description>
+                <itunes:duration>3718</itunes:duration>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/blue-skies.jpg/full/600,/0/default.jpg"/>
+            </item>
+        
+            <item>
                 <title>Looking In - February 2025</title>
                 <link>https://deephouse.uk/mix/looking-in/</link>
                 <pubDate>Sat, 01 Feb 2025 12:00:00 GMT</pubDate>
@@ -22,7 +33,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2025-02-01-looking-in.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in February 2025, featuring music from Cody Currie, Stee, Mik, Chris Stussy, Shur-I-Kan, Alexander East, Waajeed, Underground System, Moloko, Solar House, Franck Roger, Sebb Junior, Saison, Secret Night Gang.</description>
                 <itunes:duration>3630</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/looking-in.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/looking-in.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -33,7 +44,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2024-12-31-come-on-over.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in December 2024, featuring music from Madcliff, Miguel Migs, Meshell Ndegeocello, Wham, Luke Solomon, Amp Fiddler, MOD, Luisen, Parcels, Mothers Favorite Child, Saeeda Wright, MF Robots, Jamiroquai, Nile Rodgers, Chic, Angelo Ferreri.</description>
                 <itunes:duration>3681</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/come-on-over.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/come-on-over.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -44,7 +55,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2024-12-01-so-good-to-me.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in December 2024, featuring music from Hot Toddy, Karen Harding, Iso Fitzroy, Diana Brown, Barrie K Sharpe, J Boogie&#39;s Dubtronic Science, The Rebirth, Max Essa, Eddie C, Rawson, Jackson, Gus Paterson, Valère, La Felix, Chris Malinchak, Lady Blackbird, Marlena Shaw, Kinobe.</description>
                 <itunes:duration>3495</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/so-good-to-me.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/so-good-to-me.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -55,7 +66,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2024-07-01-summer-girl.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in July 2024, featuring music from Haim, Sean McCabe, Hannah Khemoh, Sourires, Cassady, Staci, Joey Negro, Eli Escobar, Queenie, Spiritchaser, Terry Grant, Charles Caliber, Moon Boots, Little Boots, Lello Russo, Manuel Kane, Saison.</description>
                 <itunes:duration>3873</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/summer-girl.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/summer-girl.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -66,7 +77,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2024-06-01-joy.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in June 2024, featuring music from TshegoTMM, Romeo Louisa, Next Phase, Helen Bruner, Terry Jones, N-Joi, Saffron, Kevin McKay, Lux Velour, Notelle, Sean McCabe, Jennifer Wallace, Storken, Pete Heller, Ridney, Negrocan, The Journey Men, Patrick Green, Mo&#39;Cream.</description>
                 <itunes:duration>3662</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/joy.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/joy.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -77,7 +88,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2024-05-01-tell-me.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in May 2024, featuring music from Salt City Orchestra, Ame Strong, Home, Garden, Lisa Shaw, Sam Ruffillo, Retromigration, Moon Boots, Modento, Clive From Accounts, Joselacruz, Thierry Tomas, Saison, Tom Caruso, Rachel Barror, Uschi Classen.</description>
                 <itunes:duration>4157</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/tell-me.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/tell-me.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -88,7 +99,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2024-04-01-kerri.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in April 2024, featuring music from Marissa Guzman, Kerri Chandler, Bluey Robinson, Christopher McCray, Roy Ayres, Nadir Simon.</description>
                 <itunes:duration>3668</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/kerri.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/kerri.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -99,7 +110,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2024-02-01-cash.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in February 2024, featuring music from Dua Lipa, Cafe 432, Lifford, H2O, Romeo Louisa, Drop Out Orchestra, Justin Harris, Blondewearingblack, Dennis Ferrer, KT Brooks, Sourires, Harry Choo Choo Romero, Motion Severn, Revival, Kathy Brown, GeO Gospel Choir, Cody Currie, DJ Spen, Soulfuledge.</description>
                 <itunes:duration>3972</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/cash.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/cash.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -110,7 +121,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2023-12-01-deepen.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in December 2023, featuring music from Get To Know, Maison Blanche, Bushwacka!, T Markakis, Modento, Mirco Savoldelli, Julie McKnight, Moloko, Franck Roger, The Phantom, Duwayne Motley, Zandrina, Cody Currie.</description>
                 <itunes:duration>3799</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/deepen.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/deepen.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -121,7 +132,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2023-10-31-spook.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in October 2023, featuring music from Spook, Dry, Bolinger, Franck Roger, DJ Deep, Lion Babe, Chaos In The CBD, Demuja, Sable Blanc, Bronx Cheer, Random Soul, Louie Vega, Honey Dijon, Round One, Andy Caine, Paper Music.</description>
                 <itunes:duration>3712</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/spook.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/spook.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -132,7 +143,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2023-09-01-rinse-and-repeat.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in September 2023, featuring music from Essa, Miguel Migs, Meshell Ndegeocello, Roy G Hemmings, Gome, Amp Fiddler, Dames Brown, Riton, Sylvia St James, Rose Royce, Joey Negro, Diane Charlemagne, Peter Mac, E-Smoove, Latanza Waters.</description>
                 <itunes:duration>3188</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/rinse-and-repeat.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/rinse-and-repeat.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -143,7 +154,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2023-08-01-new-day.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in August 2023, featuring music from Adrian Hour, Moodymann, AirBorn Gav, Hurricane, Peggy Gou, Thomas Bangalter, Sebb Junior, Glenn Davis, Round Two, Andy Caine, Bushwacka!, RiskSoundSystem, Discosteps, Iz, Diz.</description>
                 <itunes:duration>3591</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/new-day.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/new-day.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -154,7 +165,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2023-07-01-uptown.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in July 2023, featuring music from Demarkus Lewis, Rony Breaker, Nathan Thomas, Lanu, Husky, Lee Wilson, Sophie Lloyd, Pauline Taylor, Crackazat, Nick Hussey, Jamie Van Goulden, Alexis Hall, Joey Montenegro, Discosteps, Ferdinand Weber, Ruby Francis, Amp Fiddler, Kinsuby.</description>
                 <itunes:duration>3696</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/uptown.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/uptown.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -165,7 +176,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2023-06-01-kiss-of-life.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in June 2023, featuring music from Crackazat, Frank Booker, Djoko, Black Loops, Rawdio, Jody Watley, MF Robot, The Young Punx, Lexa Hill, DJ T, Prunk, Belizbeha, Disciples, ANOTR.</description>
                 <itunes:duration>4007</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/kiss-of-life.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/kiss-of-life.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -176,7 +187,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2023-05-01-waves-of-change.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in May 2023, featuring music from Silk Sonic, TLC, 40 Thieves, Qzen, Native Rhythms, Sandman, Riverside, Jeremy Ellis, Michelle Weeks, Samantha James, Sade, Ekkah, Black Hawks of Panama, Milton Jackson, Ski Oakenfull, Criminal Element Orchestra.</description>
                 <itunes:duration>3725</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/waves-of-change.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/waves-of-change.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -187,7 +198,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2023-04-01-paradise.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in April 2023, featuring music from ANOTR, Hotevilla, Javonntte, Fred Everything, Karl The Voice, Aron Volta, Discosteps, Crystal Waters, Soul Central, Robin S, DJ Christian B, Sebb Junior, Husky, Brazen, Kings Of Tomorrow, Nenor, Jenny Penkin, Kaz James, Nick Morgan.</description>
                 <itunes:duration>3668</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/paradise.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/paradise.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -198,7 +209,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2023-03-01-love-and-hate.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in March 2023, featuring music from A:xus, Crackazat, Denis Ferrer, Shur-I-Kan, Etienne de Crecy, Mishell Ivon, Sequenceprogram, Full Intention, Adam Nyquist, Andy Roda, Jerome Sydenham, Dorrey Lyles, SanXero, Gabriels.</description>
                 <itunes:duration>3422</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/love-and-hate.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/love-and-hate.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -209,7 +220,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2023-02-01-peace-through-strength.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in February 2023, featuring music from Shazz, St Germain, Derek Bays, Michal Martyniuk, YaniKa, The Ananda Project, Luca Olivotto, Crazy P, Youen, Danny Tenaglia, Ekkah.</description>
                 <itunes:duration>2410</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/peace-through-strength.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/peace-through-strength.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -220,7 +231,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2022-12-31-vogue.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in December 2022, featuring music from Rytmlabb, Change, Madonna, Oliver Cheatham, Risk Assessment, Gregory Porter, DENA, Talking Heads, Simply Red, Joey Negro, Sunlightsquare.</description>
                 <itunes:duration>3940</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/vogue.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/vogue.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -231,7 +242,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2022-12-01-angel.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in December 2022, featuring music from DJ Q, Henrik Villard, Jon Dixon, L&#39;Renee, Theos, Capyac, Soul Reductions, South West Seven, DJ Disciple, E-man, Antenna!, Zed Bias, Jaki Graham, Themba, Brenden Praise.</description>
                 <itunes:duration>3807</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/angel.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/angel.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -242,7 +253,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2022-11-01-twilight.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in November 2022, featuring music from Atmosfear, Kraak, Smaak, Izo Fitzroy, Purple Disco Machine, Matthieu Faubourg, Dames Brown, Andres, Amp Fiddler, Joey Negro, Linda Clifford, Art of Tones, Zenbi, Martina Camargo, Crazy P, Calvin Harris, Dua Lipa.</description>
                 <itunes:duration>3685</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/twilight.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/twilight.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -253,7 +264,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2022-10-01-direct-sunlight.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in October 2022, featuring music from Somethin&#39; Sanctified, Keecen, Mark Farina, Justin Liquid Anderson, Pat Lok, Stefano Albanese, The Craftsmen, Crazy P, Ananda Project, Saison, Kid Enigma, Terra Deva, Miguel Migs, Evelyn Champagne King, Crackazat.</description>
                 <itunes:duration>3769</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/direct-sunlight.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/direct-sunlight.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -264,7 +275,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2022-09-01-finality.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in September 2022, featuring music from Greg Wilson, Kartell, Che Lingo, Moodblanc, Leon Sweet, Cristabella May, Basement Jaxx, Luka, Sio, Janet Jackson, ODahl, Earth People, Yse Saint Laur&#39;ant.</description>
                 <itunes:duration>3035</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/finality.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/finality.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -275,7 +286,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2022-08-01-does-it-make-you-feel-good.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in August 2022, featuring music from Kamuflars, Confidence Man, Syren, Spiritchaser, Dam Swindle, DJ Vartan, Techcrasher, Kinky Movement, Tilman, Shur-I-Kan, Milton Jackson, Moon Boots, Cherry Glazerr, Kraak, Smaak, Nic Hanson, Animist, Thernero, Zimmer, Todd Terje.</description>
                 <itunes:duration>4582</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/does-it-make-you-feel-good.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/does-it-make-you-feel-good.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -286,7 +297,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2022-07-01-holiday.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in July 2022, featuring music from Convaire, DJ Disciple, Harmonies, COEO, Homero Espinosa, Cris Herrera, Tokita, Just Us, Eddy, DJ Rae, Confidence Man, Andronicus, Tilman, Sebb Junior, Spiritchaser, Grant Nelson, Eddie Leader, Tom Lawson.</description>
                 <itunes:duration>3714</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/holiday.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/holiday.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -297,7 +308,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2022-06-01-just-a-taste.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in June 2022, featuring music from Clive From Accounts, Ananda Project, Kai Martin, Luka, Sio, Intr0beatz, Kerri Chandler, Jerome Sydenham, Dennis Quin, Saison, Miss Yankey, Tomaas Ali, Spiritchaser, Duke Dumont, Say Lou Lou, Tigerskin.</description>
                 <itunes:duration>3505</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/just-a-taste.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/just-a-taste.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -308,7 +319,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2022-05-01-modern-romance.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in May 2022, featuring music from David Morales, Michelle Perera, Samuele Sartini, Jonk, Spook, Dawn Tallman, Saison, Duwayne Motley, Tim Davis, DuBeat, Bondar, Catz n Dogz, Gerd Janson, Cinthie, Soul Shadow, Rasmus Faber, Dyanna Fearon, Bamo, K Klass, Mike Smith, Jon Gravy, STK Ensemble.</description>
                 <itunes:duration>3684</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/modern-romance.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/modern-romance.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -319,7 +330,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2022-04-01-deep-love.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in April 2022, featuring music from Soul Capsule, Nico Mendez, Frink, Milton Jackson, Demarkus Lewis, Lucky Sun, Alison David, Adam Nyquist, Jay Gecko, Kirstie Fox, Butch, Fiorious, Vertigini, St Germain.</description>
                 <itunes:duration>3690</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/deep-love.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/deep-love.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -330,7 +341,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2022-03-01-les-oxalis.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in March 2022, featuring music from Kim English, Onda, Kerri Chandler, Aya, Omar, Jimpster, Psychemagik, DJ T, Zimmer, Pallace, Charlotte Gainsbourg.</description>
                 <itunes:duration>3340</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/les-oxalis.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/les-oxalis.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -341,7 +352,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2022-02-01-been-a-long-time.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in February 2022, featuring music from Rob Mello, Kerri Chandler, Madvilla, Shyam P, Rony Breaker, Nathan Thomas, The Realm, Tony Momrelle, Cloud 9, Catz n Dogz, Jono McCleery, Director&#39;s Cut, Kenny Summit, Groove Assassin, Kenny Bobien, 2nd Shift, Anthony Pearson, The Grid.</description>
                 <itunes:duration>3910</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/been-a-long-time.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/been-a-long-time.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -352,7 +363,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2021-12-01-37-celsius.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in December 2021, featuring music from Clive From Accounts, Black Hawks Of Panama, Bisi, Lambert, Handle, Titeknots, Nas Elmes, Tommy Glasses, Chris Stussy, SAM, Piers Kirwan, Mix, Fairbanks, ODahl, Hustlers Convention, Says Who?.</description>
                 <itunes:duration>4088</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/37-celsius.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/37-celsius.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -363,7 +374,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2021-11-01-where-do-i-begin.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in November 2021, featuring music from Lay Far, Allen Craig, Tobirus Mozelle, Flevans, Dua Lipa, Hotel Garuda, Runn, Moon Boots, Poom, Zetbee, Julian Sanza, Andre Espeut, Tom Bug, Ron Carroll, Innervision, Courtney Irish, Alex Poet, Michelle Weeks.</description>
                 <itunes:duration>3500</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/where-do-i-begin.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/where-do-i-begin.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -374,7 +385,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2021-09-01-talk-to-me.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in September 2021, featuring music from Sade, Robert Mitchell, Ty, Crackazat, Sofatalk, Slow Knights, Alex Bone, Nile Rodgers, Madi, Robokid, Motte, Cassette Club, Lucien, the Kimono Orchestra, Iz, Diz, Ray Mang, Platzdasch, Underground Solution.</description>
                 <itunes:duration>4465</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/talk-to-me.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/talk-to-me.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -385,7 +396,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2021-08-01-your-soul-on-mine.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in August 2021, featuring music from Tom Chubb, Mr Moon, Saison, Zetbee, Micronoise, Mo&#39;Cream, M-High, Aron Volta, Sebb Junior, Shur-I-Kan, P&#39;taah.</description>
                 <itunes:duration>3762</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/your-soul-on-mine.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/your-soul-on-mine.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -396,7 +407,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2021-07-01-lovely-summer-dreams.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in July 2021, featuring music from Amp Fiddler, Shino Blackk, Franck Roger, Jimpster, James Curd, Turbotito, Likasto, DuBeats, Bondar, Feint Young Son, Roland Clark, Henrik Villard, Retromigration, Local Options, Kings Of Tomorrow, Random Soul, Sy Sez, Phoenix Pearls, Supernova, Julien Jabre.</description>
                 <itunes:duration>4621</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/lovely-summer-dreams.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/lovely-summer-dreams.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -407,7 +418,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2021-06-01-glad-to-know-you.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in June 2021, featuring music from Los Amigos Invisibles, Dimitri From Paris, Tomas Barfod, Nina K, Róisín Murphy, BSC, Heidi Vogel, Moodblanc, Mousse T, Cleah, Lee Wilson, El Funkador, Number Eleven, Flevans, Nathan G, Z Factor.</description>
                 <itunes:duration>3973</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/glad-to-know-you.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/glad-to-know-you.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -418,7 +429,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2021-05-01-moments.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in May 2021, featuring music from Dirt Crew, Travertia, Oliver Schories, Alex Connors, Hardy Heller, Grand Corporation, Jeremy Glenn, Martin Buttrich, Mathew Jonson, Henry Krinkle, Marvin Zeyss, Juliche Hernandez, Ray Mono, Henza, Michaela, Narangerel, Monyq, Moan, Mistura, Kendra Cash, Boogie Rapture, Pandar.</description>
                 <itunes:duration>5065</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/moments.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/moments.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -429,7 +440,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2021-04-01-feel-what-love-has.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in April 2021, featuring music from Lucien, The Kimono Orchestra, Moon Boots, DJ Romain, Larse, Charlie Sputnik, The Company Soundsystem, Becca J, Dark Horse Disco, Dennis Ferrer, Bola Belo, Toman, Horse Meat Disco, Amy Douglas, Din Jay, Angie Brown, Lenny Fontana, D-Train, T Markakis, Vall, Henrik Villard.</description>
                 <itunes:duration>4461</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/feel-what-love-has.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/feel-what-love-has.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -440,7 +451,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2021-03-01-the-life-behind-things.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in March 2021, featuring music from Phenomenal Handclap Band, Kapote, Trevor Loveys, Mr KS, Black Loops, Clive From Accounts, Crazy P, DuBeats, Lebedev, N-You-Up, Detroit Swindle, Risk Assessment, Tommy Glasses, South West Seven, Crackazat.</description>
                 <itunes:duration>4946</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/the-life-behind-things.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/the-life-behind-things.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -451,7 +462,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2021-02-01-say-yes.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in February 2021, featuring music from Robb Scott, HNNY, Hot Sand, Onda, Kings Of Tomorrow, Central Living, Floetry, Jersey Street Allstars, Louie Fresco, Lovebirds, Vincenzo, FCL.</description>
                 <itunes:duration>3701</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/say-yes.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/say-yes.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -462,7 +473,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2021-01-01-no-more-mistakes.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in January 2021, featuring music from Sebb Junior, Montreea, Lumoon, Robin, Michael Gray, 2 Bad Mice, Adam Nyquist, Jay Gecko, Saison, Yooks, Makito, Vertigini, Risk Assessment, DJ Romain, Project89, Victor Polo, Gaol, Danny Losito, Sunkids, Chance, Coeo, Boris Dlugosch.</description>
                 <itunes:duration>5457</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/no-more-mistakes.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/no-more-mistakes.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -473,7 +484,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2020-12-01-high-hopes.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in December 2020, featuring music from Quart, Rashid Ajami, Local Options, Lavvy Levan, Husky, Red London, Sebas Ramis, Robert Owens, Crazy P, Tamia, LTS, Friendly Fires, Kiko Navarro, Boris Dlugosch, Vertigini, Adam Nyquist, Solomun, George FitzGerald, Loframes.</description>
                 <itunes:duration>4857</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/high-hopes.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/high-hopes.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -484,7 +495,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2020-11-01-dance-with-me.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in November 2020, featuring music from Roberto Rodriguez, Supernova, Ann Saunderson, Country Gents, Pavao, Night Tales, Adam Nyquist, Jay Gecko, Mo&#39;Cream, Charlie Banks, Christian B, Lavvy Levan, LTS, Blo, Chris Stussy.</description>
                 <itunes:duration>3871</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/dance-with-me.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/dance-with-me.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -495,7 +506,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2020-10-01-always-chicago.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in October 2020, featuring music from Mari, Terrasoul, JYD, Withus, Kevin Yost, Rosario Galati, Moon Boots, LTS, Sunner Soul, Soulmagic, Moullinex, Veev, South West Seven, Reel People, LaSharVu, The Vision, Andreya Triana, Kraak, Smaak, Cleopold, Soft House Company, Gui Boratto, Boogie Rapture.</description>
                 <itunes:duration>5818</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/always-chicago.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/always-chicago.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -506,7 +517,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2020-09-01-part-of-the-noise.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in September 2020, featuring music from Lumoon, Rob!n, Mason, Manuel Sahagun, Simkid, Best Youth, Moullinex, Flevans, Laura Vane, The Journey Men, Demuir, Sinner, James, Addvibe, Prunk, Tom Ellis, Choices, Selace, Mac Miller, Chaz Jankel.</description>
                 <itunes:duration>5061</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/part-of-the-noise.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/part-of-the-noise.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -517,7 +528,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2020-08-01-everybody-loves-the-sunshine.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in August 2020, featuring music from The Roots, Tinpong, Microstar, The Pimpztress Rah, Martin Virgin, Louie Vega, UC Beatz, Scott Diaz, Gabriele Poso, T Ski Valley, Addvibe, Julie McKnight, Lovebirds, FCL, Dino Soccio, Sebb Junior, 16B, Oh Yeah, Micronoise, Legit Trip, Tender Games, Bubble Club.</description>
                 <itunes:duration>6653</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/everybody-loves-the-sunshine.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/everybody-loves-the-sunshine.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -528,7 +539,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2020-07-01-youre-in-my-system.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in July 2020, featuring music from Inkswel, Dave Aju, Blakey, Vertigini, Addvibe, Retromigration, Frankie Knuckles, Sybil, Purple Disco Machine, Baxter, Corduroy Mavericks, EmTre, Twolegs, Kraak, Smaak, Luxxury, Lindstrøm, Ronika, Chilly Gonzales, Sebb Junior, Farrow, Jordan Dee, Kerri Chandler, Jerome Sydenham, Troy Denari, Fiorious, Dutchican Soul, DJOKO, Angelo Ferreri, Golden Dawn Arkestra.</description>
                 <itunes:duration>6562</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/youre-in-my-system.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/youre-in-my-system.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -539,7 +550,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2020-06-01-just-to-make-me.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in June 2020, featuring music from Vhyce, Noelle, Sebb Junior, Risk Assessment, Queen Rose, Studioheist, Akabu, Linda Clifford, Black Loops, Bronx Cheer, ANOTR, Stussko, Julian Sanza, Andre Espeut, Mic Newman, Milton Jackson, Retromigration, Weiss, Crazy P, Tensnake.</description>
                 <itunes:duration>5830</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/just-to-make-me.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/just-to-make-me.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -550,7 +561,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2020-05-01-dancing-with-each-other.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in May 2020, featuring music from ODahl, Loframes, Satin Jackets, Change, Moons Boots, Steven Klavier, Aviators, Drop Out Orchestra, Ronika, Aeroplane, David Morales, Blondewearingblack, NY&#39;s Finest, Dean Zepherin, Luxxury, Joey Negro, Kevin McKay, David Penn, Birdee, Andre Espeut.</description>
                 <itunes:duration>4595</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/dancing-with-each-other.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/dancing-with-each-other.jpg/full/600,/0/default.jpg"/>
             </item>
         
             <item>
@@ -561,7 +572,7 @@
                 <enclosure url="https://mix.deephouse.uk/deephouse-uk-2020-04-01-hope-you-can-wait.oga" type="audio/ogg" />
                 <description>A continuous deep house DJ mix, recorded live in April 2020, featuring music from Shur-I-Kan, Redondo, Ferreck Dawn, Rayko, Tania Haroshka, Jabberwocky, Shazz, Iso Fitzroy, Adeline Michèle, Moon Boots, Lulu James, Submotion Orchestra, Nightriders, Lisa Shaw, Sandy Rivera, Billy Cobham, Novecento.</description>
                 <itunes:duration>3688</itunes:duration>
-                <itunes:image href="https://deephouse.uk/images/mix/hope-you-can-wait.jpg"/>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/hope-you-can-wait.jpg/full/600,/0/default.jpg"/>
             </item>
         
     </channel>
