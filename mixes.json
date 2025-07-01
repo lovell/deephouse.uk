@@ -1,5 +1,33 @@
 [
-    {
+  {
+    "title": "City Of Love",
+    "subtitle": "July 2025",
+    "date": "2025-07-01",
+    "slug": "city-of-love",
+    "bpm": 122,
+    "durationSeconds": 4790,
+    "colour": "ce5c7e",
+    "photoCredit": "Sandro Cenni",
+    "photoUrl": "https://unsplash.com/photos/M3Vye9lEmUg",
+    "tracklist": [
+      "Club Session - Don't Move (Jon's Distant Vocal Remix)",
+      "Sebb Junior - I Wanna Go (Extended Mix)",
+      "Ruze - Concorde Club",
+      "ColorJaxx and Jo Paciello - Turntables",
+      "Julian Hamilton - City Of Love (Harvey Sutherland Remix)",
+      "Frits Wentink - I Want It All",
+      "Zetbee - One More Time",
+      "Romeo Louisa - On My Mind",
+      "Jimpster - You Got My Love",
+      "Deetron - Photon (Gerd Janson DJ Version)",
+      "Grant Nelson presents Departure Lounge - Time Ties",
+      "Moon Boots - Whatever You Need",
+      "Marc Brauner feat Tender Games - Love Keeper",
+      "DJ Rae - Reach (Sandy Rivera's Classic Extended Mix)",
+      "Cee ElAssaad and Beatkozina - Crossings Paths"
+    ]
+  },
+  {
     "title": "Blue Skies",
     "subtitle": "June 2025",
     "date": "2025-06-01",
