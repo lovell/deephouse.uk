@@ -1,5 +1,29 @@
 [
   {
+    "title": "Feels Alright",
+    "subtitle": "September 2025",
+    "date": "2025-09-01",
+    "slug": "feels-alright",
+    "bpm": 123,
+    "durationSeconds": 3658,
+    "colour": "8f3014",
+    "photoCredit": "Jimmy Ofisia",
+    "photoUrl": "https://unsplash.com/photos/g-HUr7wOucw",
+    "tracklist": [
+      "Bongoloverz feat An-Tonic - Power Of Music",
+      "Wankelmut and Anna Leyne - Free At Last (Martin Ikin Remix)",
+      "Beau - Stuck On Repeat (Extended Mix)",
+      "Yogi and Husky - It Feels Alright (Miguel Migs Petalpusher Rework)",
+      "Georges - Feelin' (Fouk Remix)",
+      "Change - Make Me (Go Crazy) (Opolopo Remix)",
+      "Lizzo - About Damn Time (Ian Wallace and Nick Bike Remix)",
+      "Aline Rocha - WTF (Extended Mix)",
+      "Physical Education - Sun Going Down (Dub Mix)",
+      "The Jazzcodes - Jazz Was Dancing (Extended Mix)",
+      "Harry Choo Choo Romero feat Inaya Day - Just Can't Get Enough (Live Element's Remix)"
+    ]
+  },
+  {
     "title": "City Of Love",
     "subtitle": "July 2025",
     "date": "2025-07-01",
