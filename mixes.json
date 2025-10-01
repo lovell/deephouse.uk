@@ -1,5 +1,29 @@
 [
   {
+    "title": "Anthracite",
+    "subtitle": "October 2025",
+    "date": "2025-10-01",
+    "slug": "anthracite",
+    "bpm": 124,
+    "durationSeconds": 3646,
+    "colour": "f45803",
+    "photoCredit": "Marcos Assis",
+    "photoUrl": "https://unsplash.com/photos/FR24wE03tz8",
+    "tracklist": [
+      "6th Borough Project - Rhythm",
+      "Carl Waller - Forget (Extended Mix)",
+      "Indart, Chus and Ceballos - Buenos Momentos",
+      "Black Loops feat Marlena Dae - Experience (Black Loops Dancefloor Dub)",
+      "Guy Contact - The First Anura Ever Known",
+      "Thabo - Rude Child",
+      "Lane 8 and Tinlicker - Anthracite",
+      "Inxec vs Droog - Westbound",
+      "Saison feat Dominique Fils-Aimé - Show Me (Waajeed's Black Messiah Remix)",
+      "Manuel Sahagun - Feel Alright (Fred Everything Remix)",
+      "Cinthie - Mellifluous"
+    ]
+  },
+  {
     "title": "Feels Alright",
     "subtitle": "September 2025",
     "date": "2025-09-01",

@@ -3,7 +3,7 @@
     <channel>
         <title>Deep House Mixes - London, UK</title>
         <link>https://deephouse.uk</link>
-        <description>A selection of 53 deep house DJ mixes, over 60 hours of music, all recorded live.</description>
+        <description>A selection of 54 deep house DJ mixes, over 61 hours of music, all recorded live.</description>
         <atom:link href="https://deephouse.uk/feed.xml" rel="self" type="application/rss+xml"/>
         <language>en-GB</language>
         <itunes:image href="https://deephouse.uk/images/decks.jpg"/>
@@ -13,6 +13,17 @@
         <itunes:author>deephouse.uk</itunes:author>
         <itunes:category text="Music"/>
         <itunes:explicit>no</itunes:explicit>
+        
+            <item>
+                <title>Anthracite - October 2025</title>
+                <link>https://deephouse.uk/mix/anthracite/</link>
+                <pubDate>Wed, 01 Oct 2025 13:00:00 GMT</pubDate>
+                <guid>https://deephouse.uk/mix/anthracite</guid>
+                <enclosure url="https://mix.deephouse.uk/deephouse-uk-2025-10-01-anthracite.oga" type="audio/ogg" />
+                <description>A continuous deep house DJ mix, recorded live in October 2025, featuring music from 6th Borough Project, Carl Waller, Indart, Chus, Ceballos, Black Loops, Marlena Dae, Guy Contact, Thabo, Lane 8, Tinlicker, Inxec, Droog, Saison, Dominique Fils-Aimé, Manuel Sahagun, Cinthie.</description>
+                <itunes:duration>3646</itunes:duration>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/anthracite.jpg/full/600,/0/default.jpg"/>
+            </item>
         
             <item>
                 <title>Feels Alright - September 2025</title>

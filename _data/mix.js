@@ -5,9 +5,9 @@ const artistsFromTracklist = (tracklist) => {
     .map((track) => track.split(" - ")[0])
     .map((artist) =>
       artist
-        .split(/( feat | and | x |, )/)
+        .split(/( feat | and | x | vs |, )/)
         .map((tag) => tag.trim())
-        .filter((tag) => !["feat", "and", "x", ",", ", "].includes(tag))
+        .filter((tag) => !["feat", "and", "x", "vs", ",", ", "].includes(tag))
     )
     .flat();
   return [...new Set(tags)];
