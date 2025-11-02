@@ -1,5 +1,28 @@
 [
   {
+    "title": "Crazy",
+    "subtitle": "November 2025",
+    "date": "2025-11-01",
+    "slug": "crazy",
+    "bpm": 120,
+    "durationSeconds": 3189,
+    "colour": "a26247",
+    "photoCredit": "Georgia de Lotz",
+    "photoUrl": "https://unsplash.com/photos/U-oPiCxTDwc",
+    "tracklist": [
+      "Crazy P - Changes (Mario Basanov Remix)",
+      "Hot Toddy feat Jennifer Rhonwen - Down To Love",
+      "Aquanote - Nowhere (Crazy P's Heatwave Mix)",
+      "Hot Toddy feat Danielle Moore - Positive Emotion",
+      "Country Gents feat Pavao - See No Evil (Crazy P v2 Mix)",
+      "Crazy P - Sun Science",
+      "Hot Toddy feat Danielle Moore - Freekend (Ron BaseJam Remix)",
+      "Crazy P - Something More (Hot Toddy Disco Redux)",
+      "Hot Toddy - Still We Are",
+      "Crazy P - Scrap The Book"
+    ]
+  },
+  {
     "title": "Anthracite",
     "subtitle": "October 2025",
     "date": "2025-10-01",
