@@ -1,5 +1,28 @@
 [
   {
+    "title": "Passion",
+    "subtitle": "December 2025",
+    "date": "2025-12-01",
+    "slug": "passion",
+    "bpm": 124,
+    "durationSeconds": 3326,
+    "colour": "702939",
+    "photoCredit": "Maria Georgieva",
+    "photoUrl": "https://unsplash.com/photos/FLvnzgJlxcI",
+    "tracklist": [
+      "Hi-Tension - How Do You Feel (K and F Edit)",
+      "Ralphi Rosario with Linda Clifford - Wanna Give It Up (Dr Packer's Lego's Dub Remix)",
+      "Spencer Morales feat Tasha Larae - I Need Your Lovin (Opolopo Remix)",
+      "Guy Preston feat Caspian The Prince - Passion",
+      "Namy feat Azumi Takahashi - The Boss (Michele Chiavarini Remix)",
+      "Secret Night Gang - Captured (Cosmodelica Remix)",
+      "Da Lukas - Satisfy Your Soul (Extended Mix)",
+      "Peter Brown - Disko Madness (Extended Mix)",
+      "Jaegerossa - Richards Gear",
+      "Ditongo - Delgado (Part 1 + Part 2)"
+    ]
+  },
+  {
     "title": "Crazy",
     "subtitle": "November 2025",
     "date": "2025-11-01",
