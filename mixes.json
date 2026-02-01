@@ -1,5 +1,31 @@
 [
   {
+    "title": "The Lake",
+    "subtitle": "February 2026",
+    "date": "2026-02-01",
+    "slug": "the-lake",
+    "bpm": 123,
+    "durationSeconds": 4044,
+    "colour": "234753",
+    "photoCredit": "Peter Fazekas",
+    "photoUrl": "https://www.pexels.com/photo/35647150",
+    "tracklist": [
+      "KX9000 - High Def",
+      "Black Loops feat Harvey Sutherland and Marlena Dae - Pleasure Ride",
+      "Chasing Kurt - One Things (Fingersman's Boogie Beatdown)",
+      "Kinky Movement feat Ida Flo - Single Love",
+      "Oreason and Romeo Louisa - Looking For Changes",
+      "Løvdal - In Love Baby",
+      "Dutchican Soul feat Karmina Dai - My Mind",
+      "Citizens Of Vice - The Lake (Pete Herbert Remix)",
+      "Booker T feat Katherine Ellis - Give Me Joy (Booker T Kings of Soul Vocal Mix)",
+      "S.E.L. feat Bryan Chambers - Falling (Booker T Kings Of Soul Satta Dub)",
+      "Javonntte - Get It Up",
+      "Folamour - Devoted To U (Session Victim Extended Remix)",
+      "Blaze feat Alexander Hope - Wonderland (Jimpster Extended Remix)"
+    ]
+  },
+  {
     "title": "Passion",
     "subtitle": "December 2025",
     "date": "2025-12-01",

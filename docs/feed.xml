@@ -3,7 +3,7 @@
     <channel>
         <title>Deep House Mixes - London, UK</title>
         <link>https://deephouse.uk</link>
-        <description>A selection of 56 deep house DJ mixes, over 63 hours of music, all recorded live.</description>
+        <description>A selection of 57 deep house DJ mixes, over 64 hours of music, all recorded live.</description>
         <atom:link href="https://deephouse.uk/feed.xml" rel="self" type="application/rss+xml"/>
         <language>en-GB</language>
         <itunes:image href="https://deephouse.uk/images/decks.jpg"/>
@@ -13,6 +13,17 @@
         <itunes:author>deephouse.uk</itunes:author>
         <itunes:category text="Music"/>
         <itunes:explicit>no</itunes:explicit>
+        
+            <item>
+                <title>The Lake - February 2026</title>
+                <link>https://deephouse.uk/mix/the-lake/</link>
+                <pubDate>Sun, 01 Feb 2026 12:00:00 GMT</pubDate>
+                <guid>https://deephouse.uk/mix/the-lake</guid>
+                <enclosure url="https://mix.deephouse.uk/deephouse-uk-2026-02-01-the-lake.oga" type="audio/ogg" />
+                <description>A continuous deep house DJ mix, recorded live in February 2026, featuring music from KX9000, Black Loops, Harvey Sutherland, Marlena Dae, Chasing Kurt, Kinky Movement, Ida Flo, Oreason, Romeo Louisa, Løvdal, Dutchican Soul, Karmina Dai, Citizens Of Vice, Booker T, Katherine Ellis, S.E.L., Bryan Chambers, Javonntte, Folamour, Blaze, Alexander Hope.</description>
+                <itunes:duration>4044</itunes:duration>
+                <itunes:image href="https://pixel.plumbing/deephouse-uk/the-lake.jpg/full/600,/0/default.jpg"/>
+            </item>
         
             <item>
                 <title>Passion - December 2025</title>
