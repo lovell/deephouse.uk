@@ -1,7 +1,7 @@
 ---
 layout: layout.njk
 eleventyComputed:
-  title: "{{ mix.title }} - {{ mix.subtitle }} - Deep House Mixes - London, UK"
+  title: "{{ mix.title }} - {{ mix.subtitle }} - Deep House Mixes - London"
   description: "A continuous deep house DJ mix, recorded live in {{ mix.month }}, featuring music from {{ mix.artists | join(', ') }}."
   image: https://pixel.plumbing/deephouse-uk/{{ mix.slug }}.jpg/full/600,/0/default.jpg
 pagination:
@@ -44,7 +44,10 @@ permalink: "/mix/{{ mix.slug }}/index.html"
           <li>{{ track }}</li>
         {%- endfor %}
       </ol>
-      {% if mix.photoCredit %}<p class="small text-muted d-none d-md-block">Photo by {{ mix.photoCredit }}</p>{% endif %}
+      <p class="small text-muted d-none d-md-block">
+        Mixed by Lovell Fuller
+        {% if mix.photoCredit %}<br/>Photo by {{ mix.photoCredit }}{% endif %}
+      </p>
       <button id="share-mix" class="d-none btn btn-sm btn-outline-secondary">Share</button>
     </article>
   </main>
