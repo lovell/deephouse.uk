@@ -1,7 +1,7 @@
-const pluginPurgeCss = require("eleventy-plugin-purgecss");
-const pluginRss = require("@11ty/eleventy-plugin-rss");
+import pluginRss from "@11ty/eleventy-plugin-rss";
+import pluginPurgeCss from "eleventy-plugin-purgecss";
 
-const sumDurationAsHours = (mixes) => {
+function sumDurationAsHours(mixes) {
   const totalDurationSeconds = mixes.reduce(
     (total, { durationSeconds }) => total + durationSeconds,
     0
@@ -9,7 +9,7 @@ const sumDurationAsHours = (mixes) => {
   return Math.floor(totalDurationSeconds / 3600);
 };
 
-module.exports = function (eleventyConfig) {
+export default function (eleventyConfig) {
   eleventyConfig.addFilter("sumDurationAsHours", sumDurationAsHours);
   eleventyConfig.addPassthroughCopy({
     "node_modules/bootstrap/dist/css/bootstrap.min.css":
