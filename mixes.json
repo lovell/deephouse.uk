@@ -1,5 +1,31 @@
 [
   {
+    "title": "Let It",
+    "subtitle": "June 2026",
+    "date": "2026-06-01",
+    "slug": "let-it",
+    "bpm": 122,
+    "durationSeconds": 4198,
+    "colour": "788a98",
+    "photoCredit": "Samuel Regan-Asante",
+    "photoUrl": "https://unsplash.com/photos/uE4gXrpDzxw",
+    "tracklist": [
+      "Kerri Chandler feat AbbieLee - Let It (Give Me Back My Love)",
+      "Sebb Junior - I Like That (Extended Mix)",
+      "Frits Wentink - Ambassador",
+      "Waajeed feat CJay Hill - Make It Happen",
+      "Lawnchair Generals - The Truth",
+      "Crazy P - Beatbox (Burnski Remix)",
+      "Social Lovers - Higher",
+      "Clive From Accounts - That Rhythm",
+      "Marc Brauner feat Steffen Heidemann - Afternoon",
+      "Coppola and 2STRANGE - Kings and Queens",
+      "Deep Zone feat Ceybil Jefferies - Praise Him (Lift Your Hands Up) (DJ Spen Retroactive Extended Remix)",
+      "Shay Jones - Good Love (Morel's Club Mix)",
+      "Tommy Largo - Work Dat (The Sound Republic Remix)"
+    ]
+  },
+  {
     "title": "Just Be Good",
     "subtitle": "May 2026",
     "date": "2026-05-01",
