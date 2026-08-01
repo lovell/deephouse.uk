@@ -1,4 +1,4 @@
-const mixesBase = require("../mixes.json");
+import mixesBase from "../mixes.json" with { type: "json" };
 
 const artistsFromTracklist = (tracklist) => {
   const tags = tracklist
@@ -18,7 +18,7 @@ const monthFromDate = (date) =>
     new Date(date)
   );
 
-module.exports = async function () {
+export default async function () {
   const mixes = await Promise.all(
     mixesBase.map(async (mix) => {
       const month = monthFromDate(mix.date);

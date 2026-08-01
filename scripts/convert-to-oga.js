@@ -8,7 +8,7 @@ import mixes from '../mixes.json' with { type: 'json' };
 
 const wd = process.argv[2];
 if (!wd || !existsSync(wd)) {
-  console.error('Usage: node convert-to-oga.mjs <working-directory>');
+  console.error('Usage: node convert-to-oga.js <working-directory>');
   process.exit(1);
 }
 

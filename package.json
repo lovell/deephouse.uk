@@ -1,11 +1,12 @@
 {
+  "type": "module",
   "scripts": {
     "build": "eleventy",
     "serve": "eleventy --serve",
-    "oga": "node scripts/convert-to-oga.mjs"
+    "oga": "node scripts/convert-to-oga.js"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.5",
+    "@11ty/eleventy": "^3.1.6",
     "@11ty/eleventy-plugin-rss": "^3.0.0",
     "bootstrap": "^5.3.8",
     "eleventy-plugin-purgecss": "^0.6.0"
