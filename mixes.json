@@ -1,5 +1,30 @@
 [
   {
+    "title": "Every Time",
+    "subtitle": "August 2026",
+    "date": "2026-08-01",
+    "slug": "every-time",
+    "bpm": 122,
+    "durationSeconds": 3786,
+    "colour": "c5c5c5",
+    "photoCredit": "Donald Wu",
+    "photoUrl": "https://unsplash.com/photos/mRGtYItJRnA",
+    "tracklist": [
+      "Georges - Now You're Gone (Dub Mix)",
+      "Black Loops feat Marlena Dae - Electrical (Black Loops Romantic Dub)",
+      "The Vision feat Andreya - Triana - Heaven (Mousse T's E-Funk Extended Mix)",
+      "Groove Addix feat Annette Taylor - Faith (Dominic Martin and Spin Science Tronicsole Dub)",
+      "Clive From Accounts - Every Time",
+      "Dusky - Keep On (Extended Mix)",
+      "Dan Corco - The Real Life",
+      "Borrowed Identity - For You",
+      "Sísý Ey - Restless (Crazy P Extended Vocal Mix)",
+      "Mita Gami and Garden City Movement - Terracotta",
+      "Løvdal - New Jazz",
+      "The Sunchasers - Dance For Me"
+    ]
+  },
+  {
     "title": "Let It",
     "subtitle": "June 2026",
     "date": "2026-06-01",
